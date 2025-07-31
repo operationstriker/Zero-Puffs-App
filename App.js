@@ -11,7 +11,7 @@ export default function App() {
       <Text>ZeroPuffs</Text>
 
       <View style={styles.CircleView}>
-       <Text style={{color: "black", fontSize: 60, fontWeight: "semibold"}}>{Count}</Text>
+       <Text style={{color: "black", fontSize: 50, fontWeight: "semibold"}}>{Count}</Text>
       </View>
 
 

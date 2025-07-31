@@ -7,10 +7,9 @@ export default function App() {
       <Text>Zero Puffs</Text>
       <Text>0</Text>
 
-      <TouchableOpacity>
-        
+      <TouchableOpacity style={styles.PuffButton}>
+        <Text style={{textAlign: "center", color: "white", fontSize: "20", fontWeight: "bold"}}>PUFF</Text>
       </TouchableOpacity>
-      <Button style={styles.PuffButton} title='PUFF'></Button>
       <StatusBar style="auto" />
     </View>
   );
@@ -24,10 +23,13 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   PuffButton: {
-    height: 60,
-    width: 200,
+    height: 48,
+    width: "80%",
+    borderRadius: 20,
     backgroundColor: "#FF0000",
-    color: 'gray',
+    cursor: "pointer",
+    justifyContent: "center",
+    alignItems: "center",
   }
 });
 

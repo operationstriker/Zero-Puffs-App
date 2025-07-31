@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
     top: "24%",
     height: 50,
     width: "80%",
-    borderWidth: 4,
+    borderWidth: 3,
     borderColor: "red",
     borderRadius: 20,
     backgroundColor: "white",

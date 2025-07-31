@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
      width: 200, // Set desired width
     height: 200, // Set desired height (must be equal to width)
     borderRadius: 100, // Half of the width/height
-    borderWidth: 6,
+    borderWidth: 15,
     borderColor: "red",
     backgroundColor: 'transparent', // Example background color
     justifyContent: "center",

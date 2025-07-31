@@ -65,6 +65,8 @@ const styles = StyleSheet.create({
     height: 50,
     width: "80%",
     borderRadius: 20,
+    borderWidth: 30,
+    borderColor: "red",
     backgroundColor: "#FF0000",
     cursor: "pointer",
     justifyContent: "center",

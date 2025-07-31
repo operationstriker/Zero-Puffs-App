@@ -4,7 +4,7 @@ import React, { useState } from "react"
 
 export default function App() {
 
-
+  const [Count, setCount] = useState(0)
 
   return (
     <View style={styles.container}>

@@ -37,17 +37,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  // UpdatePuffsButton: {
-  //       position: "relative",
-  //   top: "23%",
-  //   height: 50,
-  //   width: "80%",
-  //   borderRadius: 20,
-  //   backgroundColor: "#FF0000",
-  //   cursor: "pointer",
-  //   justifyContent: "center",
-  //   alignItems: "center",
-  // },
   PuffButton: {
     position: "relative",
     top: "25%",

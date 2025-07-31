@@ -7,7 +7,7 @@ export default function App() {
       <Text>Zero Puffs</Text>
 
       <View style={styles.CircleView}>
-       <Text>0</Text>
+       <Text style={{color: "black", fontSize: 20}}>0</Text>
       </View>
       
 
@@ -39,9 +39,10 @@ const styles = StyleSheet.create({
      width: 200, // Set desired width
     height: 200, // Set desired height (must be equal to width)
     borderRadius: 100, // Half of the width/height
-    border: "2px solid",
-    borderColor: "gray",
-    backgroundColor: 'blue', // Example background color
+    border: '3px solid green',
+    backgroundColor: 'gray', // Example background color
+    justifyContent: "center",
+    alignItems: "center",
   }
 });
 

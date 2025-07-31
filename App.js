@@ -1,10 +1,15 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Button } from 'react-native';
+import { StyleSheet, Text, View, Button, TouchableOpacity } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Text>Zero Puffs</Text>
+      <Text>0</Text>
+
+      <TouchableOpacity>
+        
+      </TouchableOpacity>
       <Button style={styles.PuffButton} title='PUFF'></Button>
       <StatusBar style="auto" />
     </View>

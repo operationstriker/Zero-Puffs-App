@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     height: 50,
     width: "80%",
     borderRadius: 20,
-    borderWidth: 5,
+    borderWidth: 3,
     backgroundColor: "transparent",
     cursor: "pointer",
     justifyContent: "center",

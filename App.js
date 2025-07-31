@@ -5,7 +5,11 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Zero Puffs</Text>
-      <Text>0</Text>
+
+      <View style={styles.CircleView}>
+       <Text>0</Text>
+      </View>
+      
 
       <TouchableOpacity style={styles.PuffButton}>
         <Text style={{textAlign: "center", color: "white", fontSize: "20", fontWeight: "bold"}}>PUFF</Text>
@@ -30,6 +34,14 @@ const styles = StyleSheet.create({
     cursor: "pointer",
     justifyContent: "center",
     alignItems: "center",
+  },
+  CircleView: {
+     width: 200, // Set desired width
+    height: 200, // Set desired height (must be equal to width)
+    borderRadius: 50, // Half of the width/height
+    border: "2px solid",
+    borderColor: "gray",
+    backgroundColor: 'blue', // Example background color
   }
 });
 

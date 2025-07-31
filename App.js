@@ -49,8 +49,8 @@ const styles = StyleSheet.create({
     alignItems: "center",
   },
   PuffButton2: {
-    //     position: "relative",
-    // top: "25%",
+        position: "relative",
+    top: "25%",
     height: 50,
     width: "80%",
     borderWidth: 4,

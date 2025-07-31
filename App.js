@@ -16,7 +16,7 @@ export default function App() {
       
 
       <TouchableOpacity style={styles.PuffButton} onPress={(() => setCount(Count + 1))}>
-        <Text style={{textAlign: "center", color: "white", fontSize: "20", fontWeight: "bold"}}>PUFF</Text>
+        <Text style={{textAlign: "center", color: "white", fontSize: "40", fontWeight: "bold"}}>PUFF</Text>
       </TouchableOpacity>
       <StatusBar style="auto" />
     </View>

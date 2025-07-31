@@ -13,10 +13,7 @@ export default function App() {
       <View style={styles.CircleView}>
        <Text style={{color: "black", fontSize: 60, fontWeight: "semibold"}}>{Count}</Text>
       </View>
-      
-            {/* <TouchableOpacity style={styles.UpdatePuffsButton}>
-        <Text style={{textAlign: "center", color: "white", fontSize: "30", fontWeight: "semibold"}}>UPDATE PUFFS</Text>
-      </TouchableOpacity> */}
+
 
           <TouchableOpacity style={styles.PuffButton2} onPress={(() => setCount(Count + 1))}>
         <Text style={{textAlign: "center", color: "red", fontSize: "30", fontWeight: "semibold"}}>UPDATE PUFFS</Text>

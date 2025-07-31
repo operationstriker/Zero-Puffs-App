@@ -1,7 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, TouchableOpacity } from 'react-native';
 import React, { useState } from "react"
-import Plus from "./Images/Plus.png"
 
 export default function App() {
 
@@ -17,7 +16,6 @@ export default function App() {
       
 
       <TouchableOpacity style={styles.PuffButton} onPress={(() => setCount(Count + 1))}>
-        <img src={Plus}></img>
         <Text style={{textAlign: "center", color: "white", fontSize: "20", fontWeight: "bold"}}>PUFF</Text>
       </TouchableOpacity>
       <StatusBar style="auto" />
@@ -35,7 +33,7 @@ const styles = StyleSheet.create({
   PuffButton: {
     position: "relative",
     top: "25%",
-    height: 48,
+    height: 50,
     width: "80%",
     borderRadius: 20,
     backgroundColor: "#FF0000",

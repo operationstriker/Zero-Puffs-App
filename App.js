@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, TouchableOpacity } from 'react-native';
 import React, { useState } from "react"
+import Plus from "./Images/Plus.png"
 
 export default function App() {
 
@@ -11,11 +12,12 @@ export default function App() {
       <Text>ZeroPuffs</Text>
 
       <View style={styles.CircleView}>
-       <Text style={{color: "black", fontSize: 60, fontWeight: "semibold"}}>0</Text>
+       <Text style={{color: "black", fontSize: 60, fontWeight: "semibold"}}>{Count}</Text>
       </View>
       
 
-      <TouchableOpacity style={styles.PuffButton}>
+      <TouchableOpacity style={styles.PuffButton} onPress={(() => setCount(Count + 1))}>
+        <img src={Plus}></img>
         <Text style={{textAlign: "center", color: "white", fontSize: "20", fontWeight: "bold"}}>PUFF</Text>
       </TouchableOpacity>
       <StatusBar style="auto" />

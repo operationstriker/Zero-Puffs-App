@@ -1,7 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, TouchableOpacity } from 'react-native';
+import React, { useState } from "react"
 
 export default function App() {
+
+
+
   return (
     <View style={styles.container}>
       <Text>ZeroPuffs</Text>

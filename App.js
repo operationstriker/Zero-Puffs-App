@@ -18,7 +18,7 @@ export default function App() {
         <Text style={{textAlign: "center", color: "white", fontSize: "30", fontWeight: "semibold"}}>UPDATE PUFFS</Text>
       </TouchableOpacity> */}
 
-          <TouchableOpacity style={styles.PuffButton} onPress={(() => setCount(Count + 1))}>
+          <TouchableOpacity style={styles.PuffButton2} onPress={(() => setCount(Count + 1))}>
         <Text style={{textAlign: "center", color: "white", fontSize: "30", fontWeight: "semibold"}}>UPDATE PUFFS</Text>
       </TouchableOpacity>
 
@@ -50,6 +50,17 @@ const styles = StyleSheet.create({
   // },
   PuffButton: {
     position: "relative",
+    top: "25%",
+    height: 50,
+    width: "80%",
+    borderRadius: 20,
+    backgroundColor: "#FF0000",
+    cursor: "pointer",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  PuffButton2: {
+        position: "relative",
     top: "25%",
     height: 50,
     width: "80%",

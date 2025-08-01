@@ -16,7 +16,7 @@ export default function App() {
       </View>
 
 
-          <TouchableOpacity style={styles.PuffButton2} onPress={(() => setCount(Count + 1))}>
+          <TouchableOpacity style={styles.PuffButton2}>
         <Text style={{textAlign: "center", color: "red", fontSize: "28", fontWeight: "semibold"}}>UPDATE  PUFFS</Text>
       </TouchableOpacity>
 
@@ -74,3 +74,4 @@ const styles = StyleSheet.create({
 
 // start expo
 //npx expo start
+

@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, TouchableOpacity } from 'react-native';
 import React, { useState } from "react"
+import PlusImage from "./Images/Plus.png"
 
 export default function App() {
 
@@ -26,6 +27,13 @@ export default function App() {
         <Text style={{textAlign: "center", color: "white", fontSize: "25", fontWeight: "semibold"}}>PUFF</Text>
       </TouchableOpacity>
       <StatusBar style="auto" />
+
+      {/* images, plus, graph, settings */}
+       
+       <img src={PlusImage}></img>
+
+
+
     </View>
   );
 }

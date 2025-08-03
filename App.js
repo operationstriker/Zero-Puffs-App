@@ -70,7 +70,8 @@ const styles = StyleSheet.create({
   },
   CircleView: {
     position: "relative",
-     width: 200, // Set desired width
+    bottom: "20%",
+      width: 200, // Set desired width
     height: 200, // Set desired height (must be equal to width)
     borderRadius: 100, // Half of the width/height
     borderWidth: 15,

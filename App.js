@@ -19,7 +19,7 @@ export default function App() {
       </View>
 
       <View>
-        
+          <Text>Usage today</Text>
       </View>
 
 

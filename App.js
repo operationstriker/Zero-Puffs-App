@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
   },
   CircleView: {
     position: "relative",
-    bottom: "20%",
+    bottom: "15%",
      width: 200, // Set desired width
     height: 200, // Set desired height (must be equal to width)
     borderRadius: 100, // Half of the width/height

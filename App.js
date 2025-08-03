@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, TouchableOpacity } from 'react-native';
 import React, { useState } from "react"
 import PlusImage from "./Images/Plus.png"
+// import { Tabs } from "expo-router"
 
 export default function App() {
 
@@ -21,6 +22,7 @@ export default function App() {
       <View style={styles.CircleView}>
        <Text style={{color: "black", fontSize: 50, fontWeight: "semibold"}}>{Count}</Text>
        <Text>out of 20</Text>
+       <Text>1.23MG</Text>
       </View>
 
       <View style={styles.ViewUsage}>

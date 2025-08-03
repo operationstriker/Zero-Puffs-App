@@ -20,6 +20,8 @@ export default function App() {
 
       <View>
           <Text>Usage today</Text>
+
+          <Text>NO PUFFS RECORDED</Text>
       </View>
 
 

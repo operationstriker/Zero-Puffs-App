@@ -19,7 +19,7 @@ export default function App() {
       </View>
 
       <View>
-          <Text>Usage today</Text>
+          <Text style={{textAlign: "center"}}>Usage today</Text>
 
           <Text>NO PUFFS RECORDED</Text>
       </View>

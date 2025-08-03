@@ -18,7 +18,7 @@ export default function App() {
        <Text>out of 20</Text>
       </View>
 
-      <View>
+      <View style={styles.ViewUsage}>
           <Text style={{textAlign: "center"}}>Usage today</Text>
 
           <Text>NO PUFFS RECORDED</Text>

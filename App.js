@@ -9,7 +9,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={{fontSize: "35", position: "relative", bottom: "25%"}}>Zero Puffs</Text>
+      <Text style={{fontSize: "35", position: "relative", bottom: "22%"}}>Zero Puffs</Text>
       
 
 

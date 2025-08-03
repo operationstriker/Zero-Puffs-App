@@ -8,7 +8,9 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>ZeroPuffs</Text>
+      <Text style={{fontSize: "35"}}>Zero Puffs</Text>
+      
+
 
       <View style={styles.CircleView}>
        <Text style={{color: "black", fontSize: 50, fontWeight: "semibold"}}>{Count}</Text>
@@ -16,7 +18,7 @@ export default function App() {
       </View>
 
 
-          <TouchableOpacity style={styles.PuffButton2}>
+        <TouchableOpacity style={styles.PuffButton2}>
         <Text style={{textAlign: "center", color: "red", fontSize: "28", fontWeight: "semibold"}}>UPDATE  PUFFS</Text>
       </TouchableOpacity>
 

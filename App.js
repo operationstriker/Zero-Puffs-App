@@ -23,7 +23,7 @@ export default function App() {
        <Text style={{color: "black", fontSize: 50, fontWeight: "semibold"}}>{Count}</Text>
        <Text>out of 20</Text>
        <Text style={{color: "#FFBD36"}}>1.23 mg</Text>
-       <Text>Nicotine</Text>
+       <Text style={{}}>Nicotine</Text>
       </View>
 
       <View style={styles.ViewUsage}>

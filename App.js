@@ -7,6 +7,11 @@ export default function App() {
 
   const [Count, setCount] = useState(0)
 
+  if (Count == 0) {
+    print("true")
+    print("R")
+  }
+
   return (
     <View style={styles.container}>
       <Text style={{fontSize: "35", position: "relative", bottom: "22%"}}>Zero Puffs</Text>
@@ -19,9 +24,9 @@ export default function App() {
       </View>
 
       <View style={styles.ViewUsage}>
-          <Text style={{textAlign: "center"}}>Usage today</Text>
+        <Text style={{textAlign: "center"}}>Usage today</Text>
 
-          <Text>NO PUFFS RECORDED</Text>
+        <Text>NO PUFFS RECORDED</Text>
       </View>
 
 
@@ -85,11 +90,13 @@ const styles = StyleSheet.create({
     backgroundColor: 'transparent', // Example background color
     justifyContent: "center",
     alignItems: "center",
+  },
+  ViewUsage: {
+
   }
 });
 
 
 // start expo
 //npx expo start
-
 

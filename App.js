@@ -2,16 +2,18 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, TouchableOpacity } from 'react-native';
 import React, { useState } from "react"
 import PlusImage from "./Images/Plus.png"
-// import { Tabs } from "expo-router"
+import { Tabs } from "expo-router"
 
 export default function App() {
 
   const [Count, setCount] = useState(0)
 
-  if (Count == 0) {
-    print("true")
-    print("R")
-  }
+  // if (Count == 0) {
+  //   print("true")
+  //   print("R")
+
+  // if count 
+  // }
 
   return (
     <View style={styles.container}>
@@ -22,15 +24,15 @@ export default function App() {
       <View style={styles.CircleView}>
        <Text style={{color: "black", fontSize: 50, fontWeight: "semibold"}}>{Count}</Text>
        <Text>out of 20</Text>
-       <Text style={{color: "#FFBD36"}}>1.23 mg</Text>
-       <Text style={{}}>Nicotine</Text>
+       {/* <Text style={{color: "#FFBD36"}}>1.23 mg</Text>
+       <Text style={{color: "#67ff49ff"}}>Nicotine</Text> */}
       </View>
 
-      <View style={styles.ViewUsage}>
+      {/* <View style={styles.ViewUsage}>
         <Text style={{textAlign: "center"}}>Usage today</Text>
 
         <Text>NO PUFFS RECORDED</Text>
-      </View>
+      </View> */}
 
 
         <TouchableOpacity style={styles.PuffButton2}>
@@ -43,10 +45,10 @@ export default function App() {
       <StatusBar style="auto" />
 
       {/* images, plus, graph, settings */}
-       
-
-
-
+{/* 
+      <Tabs>
+        <Tabs.Screen></Tabs.Screen>
+      </Tabs> */}
     </View>
   );
 }
@@ -54,7 +56,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#ffffffff',
     alignItems: 'center',
     justifyContent: 'center',
   },

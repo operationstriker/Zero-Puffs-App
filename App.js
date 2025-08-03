@@ -18,6 +18,10 @@ export default function App() {
        <Text>out of 20</Text>
       </View>
 
+      <View>
+        
+      </View>
+
 
         <TouchableOpacity style={styles.PuffButton2}>
         <Text style={{textAlign: "center", color: "red", fontSize: "28", fontWeight: "semibold"}}>UPDATE  PUFFS</Text>
@@ -71,7 +75,7 @@ const styles = StyleSheet.create({
   CircleView: {
     position: "relative",
     bottom: "20%",
-    width: 200, // Set desired width
+     width: 200, // Set desired width
     height: 200, // Set desired height (must be equal to width)
     borderRadius: 100, // Half of the width/height
     borderWidth: 15,
@@ -86,8 +90,4 @@ const styles = StyleSheet.create({
 // start expo
 //npx expo start
 
-
-
-// start expo
-//npx expo start
 

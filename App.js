@@ -91,7 +91,7 @@ const styles = StyleSheet.create({
     height: 200, // Set desired height (must be equal to width)
     borderRadius: 100, // Half of the width/height
     borderWidth: 15,
-    borderColor: "red",
+    borderColor: "lightgray",
     backgroundColor: 'transparent', // Example background color
     justifyContent: "center",
     alignItems: "center",

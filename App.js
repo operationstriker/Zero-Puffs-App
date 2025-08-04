@@ -74,7 +74,7 @@ const styles = StyleSheet.create({
   PuffButton2: {
         position: "relative",
     top: "24%",
-    height: 50,
+    height: 55,
     width: "80%",
     borderWidth: 3,
     borderColor: "red",

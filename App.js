@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
     bottom: "15%",
      width: 230, // Set desired width
     height: 230, // Set desired height (must be equal to width)
-    borderRadius: 100, // Half of the width/height
+    borderRadius: 130, // Half of the width/height
     borderWidth: 15,
     borderColor: "lightgray",
     backgroundColor: 'transparent', // Example background color

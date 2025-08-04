@@ -15,7 +15,7 @@
     "ios": {
       "supportsTablet": true,
       "icon": {
-        
+        "light": "./assets/icons/logo.png"
       }
     },
     "android": {

@@ -87,8 +87,8 @@ const styles = StyleSheet.create({
   CircleView: {
     position: "relative",
     bottom: "15%",
-     width: 200, // Set desired width
-    height: 200, // Set desired height (must be equal to width)
+     width: 230, // Set desired width
+    height: 230, // Set desired height (must be equal to width)
     borderRadius: 100, // Half of the width/height
     borderWidth: 15,
     borderColor: "lightgray",
@@ -104,4 +104,3 @@ const styles = StyleSheet.create({
 
 // start expo
 //npx expo start
-

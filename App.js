@@ -63,7 +63,7 @@ const styles = StyleSheet.create({
   PuffButton: {
     position: "relative",
     top: "25%",
-    height: 50,
+    height: 55,
     width: "80%",
     borderRadius: 23,
     backgroundColor: "#FF0000",

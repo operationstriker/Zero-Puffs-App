@@ -22,7 +22,7 @@ export default function App() {
 
 
       <View style={styles.CircleView}>
-       <Text style={{color: "black", fontSize: 50, fontWeight: "semibold"}}>{Count}</Text>
+       <Text style={{color: "red", fontSize: 50, fontWeight: "semibold"}}>{Count}</Text>
        <Text>out of 20</Text>
        {/* <Text style={{color: "#FFBD36"}}>1.23 mg</Text>
        <Text style={{color: "#67ff49ff"}}>Nicotine</Text> */}

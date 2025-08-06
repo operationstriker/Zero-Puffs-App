@@ -8,21 +8,21 @@ export default function App() {
 
   const [Count, setCount] = useState(0)
 
-  // if (Count == 0) {
-  //   print("true")
-  //   print("R")
+  if (Count == 3) {
+    print("true")
+    print("R")
 
-  // if count 
-  // }
+  }
 
   return (
     <View style={styles.container}>
-      <Text style={{fontSize: "35", position: "relative", bottom: "22%"}}>Zero Puffs</Text>
+      <Text  style={{fontSize: "35", fontFamily: "Fredoka One", position: "relative", bottom: "22%"}}>ZeroPuffs</Text>
       
 
 
       <View style={styles.CircleView}>
        <Text style={{color: "red", fontSize: 50, fontWeight: "semibold"}}>{Count}</Text>
+
        <Text>out of 20</Text>
        {/* <Text style={{color: "#FFBD36"}}>1.23 mg</Text>
        <Text style={{color: "#67ff49ff"}}>Nicotine</Text> */}
@@ -40,9 +40,11 @@ export default function App() {
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.PuffButton} onPress={(() => setCount(Count + 1))}>
-        <Text style={{textAlign: "center", color: "white", fontSize: "25", fontWeight: "semibold"}}>PUFF</Text>
+        <Text style={{textAlign: "center", color: "white", fontSize: "28", fontWeight: "semibold"}}>PUFF</Text>
       </TouchableOpacity>
       <StatusBar style="auto" />
+
+      
 
       {/* images, plus, graph, settings */}
 {/* 
@@ -62,7 +64,7 @@ const styles = StyleSheet.create({
   },
   PuffButton: {
     position: "relative",
-    top: "25%",
+    top: "15%",
     height: 55,
     width: "80%",
     borderRadius: 27,
@@ -73,12 +75,12 @@ const styles = StyleSheet.create({
   },
   PuffButton2: {
         position: "relative",
-    top: "24%",
+    top: "14%",
     height: 55,
     width: "80%",
     borderWidth: 2,
     borderColor: "red",
-    borderRadius: 23,
+    borderRadius: 27,
     backgroundColor: "white",
     cursor: "pointer",
     justifyContent: "center",
@@ -87,8 +89,8 @@ const styles = StyleSheet.create({
   CircleView: {
     position: "relative",
     bottom: "15%",
-     width: 230, // Set desired width
-    height: 230, // Set desired height (must be equal to width)
+     width: 220, // Set desired width
+    height: 220, // Set desired height (must be equal to width)
     borderRadius: 130, // Half of the width/height
     borderWidth: 15,
     borderColor: "lightgray",
@@ -104,3 +106,4 @@ const styles = StyleSheet.create({
 
 // start expo
 //npx expo start
+

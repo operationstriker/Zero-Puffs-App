@@ -1,7 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, TouchableOpacity, Image } from 'react-native';
 import React, { useState } from "react"
-import PlusImage from "./Images/Plus.png"
 import { Tabs } from "expo-router"
 
 export default function App() {
@@ -54,7 +53,8 @@ export default function App() {
 
     {/* <img src={PlusImage}></img> */}
 
-            <Image source={require('./Images/Plus.png')} height={23}/>
+            <Image source={require('./Images/Plus.png')} style={{height: 25, width: 25}}/>
+             <Image source={require('./Images/settings.png')} style={{height: 25, width: 25}}/>
       
 
       {/* images, plus, graph, settings */}

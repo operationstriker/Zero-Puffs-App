@@ -21,7 +21,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text  style={{fontSize: "35", fontFamily: "Fredoka One", position: "relative", bottom: "22%"}}>ZeroPuffs</Text>
+      <Text  style={{fontSize: "35", fontFamily: "Fredoka One", position: "relative", bottom: "20%"}}>ZeroPuffs</Text>
       
 
 
@@ -53,11 +53,15 @@ export default function App() {
 
     {/* <img src={PlusImage}></img> */}
 
-<div>
+
+<View style={{position: "relative", top: "23%"}}>
+
+
  <Image source={require('./Images/Plus.png')} style={{height: 25, width: 25}}/>
-            <Image source={require('./Images/settings.png')} style={{height: 25, width: 25}}/>
-              <Image source={require('./Images/bar.png')} style={{height: 25, width: 25}}/>
-</div>
+<Image source={require('./Images/settings.png')} style={{height: 25, width: 25}}/>
+<Image source={require('./Images/bar.png')} style={{height: 25, width: 25}}/>
+              </View>
+
            
       
 

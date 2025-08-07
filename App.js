@@ -126,4 +126,3 @@ const styles = StyleSheet.create({
 // start expo
 //npx expo start
 
-

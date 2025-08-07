@@ -54,7 +54,8 @@ export default function App() {
     {/* <img src={PlusImage}></img> */}
 
             <Image source={require('./Images/Plus.png')} style={{height: 25, width: 25}}/>
-             <Image source={require('./Images/settings.png')} style={{height: 25, width: 25}}/>
+            <Image source={require('./Images/settings.png')} style={{height: 25, width: 25}}/>
+              <Image source={require('./Images/bar.png')} style={{height: 25, width: 25}}/>
       
 
       {/* images, plus, graph, settings */}

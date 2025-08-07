@@ -8,7 +8,10 @@ export default function App() {
 
   const [Count, setCount] = useState(0)
 
-  if (Count == 3) {
+  console.log("f")
+
+  if (Count === 7) {
+    console.log("True")
     print("true")
     print("R")
 
@@ -33,6 +36,8 @@ export default function App() {
 
         <Text>NO PUFFS RECORDED</Text>
       </View> */}
+
+      {/* Graph */}
 
 
         <TouchableOpacity style={styles.PuffButton2}>

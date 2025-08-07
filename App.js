@@ -58,10 +58,10 @@ export default function App() {
 
 
  <Image source={require('./Images/Plus.png')} style={{height: 50, width: 50, position: "relative", top: "30%"}}/>
-<Image source={require('./Images/settings.png')} style={{height: 50, width: 50, position: "relative", top: "10%", right: "15%"}}/>
-<Image source={require('./Images/bar.png')} style={{height: 50, width: 50, position: "relative", bottom: "10%", left: "25%"}}/>
-<Image source={require('./Images/settings.png')} style={{height: 50, width: 50, position: "relative", top: "-30%", right: "30%"}}/>
-<Image source={require('./Images/bar.png')} style={{height: 50, width: 50, position: "relative", bottom: "50%", left: "10%"}}/>
+<Image source={require('./Images/settings.png')} style={{height: 50, width: 50, position: "relative", top: "10%", right: "18%"}}/>
+<Image source={require('./Images/bar.png')} style={{height: 50, width: 50, position: "relative", bottom: "10%", left: "35%"}}/>
+<Image source={require('./Images/settings.png')} style={{height: 50, width: 50, position: "relative", top: "-30%", right: "35%"}}/>
+<Image source={require('./Images/bar.png')} style={{height: 50, width: 50, position: "relative", bottom: "50%", left: "20%"}}/>
               </View>
 
            
@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
   },
   PuffButton: {
     position: "relative",
-    top: "15%",
+    top: "25%",
     height: 55,
     width: "80%",
     borderRadius: 27,
@@ -96,7 +96,7 @@ const styles = StyleSheet.create({
   },
   PuffButton2: {
         position: "relative",
-    top: "14%",
+    top: "24%",
     height: 55,
     width: "80%",
     borderWidth: 2,
@@ -109,7 +109,7 @@ const styles = StyleSheet.create({
   },
   CircleView: {
     position: "relative",
-    bottom: "15%",
+    bottom: "3%",
      width: 220, // Set desired width
     height: 220, // Set desired height (must be equal to width)
     borderRadius: 130, // Half of the width/height

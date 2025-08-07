@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Button, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, Button, TouchableOpacity, Image } from 'react-native';
 import React, { useState } from "react"
 import PlusImage from "./Images/Plus.png"
 import { Tabs } from "expo-router"
@@ -9,6 +9,9 @@ export default function App() {
   const [Count, setCount] = useState(0)
 
   console.log("f")
+
+  console.log("$")
+  console.log("$3")
 
   if (Count === 7) {
     console.log("True")
@@ -45,10 +48,13 @@ export default function App() {
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.PuffButton} onPress={(() => setCount(Count + 1))}>
-        <Text style={{textAlign: "center", color: "white", fontSize: "28", fontWeight: "semibold"}}>PUFF</Text>
+        <Text style={{textAlign: "center", color: "white", fontSize: "28", fontWeight: "semibold"}}>PUFfF</Text>
       </TouchableOpacity>
       <StatusBar style="auto" />
 
+    {/* <img src={PlusImage}></img> */}
+
+            <Image source={require('./Images/Plus.png')} height={23}/>
       
 
       {/* images, plus, graph, settings */}

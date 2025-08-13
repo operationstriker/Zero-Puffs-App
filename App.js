@@ -19,7 +19,7 @@ export default function App() {
     <View style={styles.container}>
       {/* <Image source={require('./Images/Font.png')} style={{height: 50, width: 200, position: "relative", top: "-5%"}}/>
        */}
-       <Text style={{fontSize: 40, fontFamily: "Arial", bottom: "7%", color: "gray"}}>ZeroPuffs</Text>
+       <Text style={{fontSize: 40, fontFamily: "Arial", bottom: "-1%", color: "gray"}}>ZeroPuffs</Text>
 
       <View style={styles.CircleView}>
        <Text style={{color: "red", fontSize: 50, fontWeight: "semibold"}}>{Count}</Text>
@@ -29,14 +29,24 @@ export default function App() {
        <Text style={{color: "#67ff49ff"}}>Nicotine</Text> */}
       </View>
 
-      <View style={styles.vstack}>
-        <Text>0</Text>
-        <Text>5</Text>
-        <Text>10</Text>
-        <Text>15</Text>
+      <View style={{position: "relative", top: "7%"}}>
+        <View style={styles.vstack}>
+        <Text style={{marginBottom: 20}}>20</Text>
+        <Text style={{marginBottom: 20}}>15</Text>
+        <Text style={{marginBottom: 20}}>10</Text>
+        <Text style={{marginBottom: 20}}>5</Text>
+        </View>
+
+      <View style={styles.hstack}>
+        <Text style={{marginRight: 35}}>0</Text>
+        <Text style={{marginRight: 35}}>5</Text>
+        <Text style={{marginRight: 35}}>10</Text>
+        <Text style={{marginRight: 35}}>15</Text>
+        <Text style={{marginRight: 35}}>20</Text>
+        <Text style={{marginRight: 35}}>25</Text>
+        </View>
+
       </View>
-
-
 
         <TouchableOpacity style={styles.PuffButton2}>
         <Text style={{textAlign: "center", color: "red", fontSize: "28", fontWeight: "semibold"}}>UPDATE  PUFFS</Text>
@@ -53,11 +63,11 @@ export default function App() {
 <View style={{position: "relative", top: "23%"}}>
 
 
-<Image source={require('./Images/Plus.png')} style={{height: 50, width: 50, position: "relative", top: "30%"}}/>
-<Image source={require('./Images/quit.png')} style={{height: 50, width: 50, position: "relative", top: "10%", right: "18%"}}/>
-<Image source={require('./Images/bar.png')} style={{height: 50, width: 50, position: "relative", bottom: "10%", left: "35%"}}/>
-<Image source={require('./Images/settings.png')} style={{height: 50, width: 50, position: "relative", top: "-30%", right: "35%"}}/>
-<Image source={require('./Images/profile.png')} style={{height: 50, width: 50, position: "relative", bottom: "50%", left: "20%"}}/>
+<Image source={require('./Images/Plus.png')} style={{height: 50, width: 50, position: "relative", top: "10%"}}/>
+<Image source={require('./Images/quit.png')} style={{height: 50, width: 50, position: "relative", top: "-10%", right: "18%"}}/>
+<Image source={require('./Images/bar.png')} style={{height: 50, width: 50, position: "relative", bottom: "30%", left: "35%"}}/>
+<Image source={require('./Images/settings.png')} style={{height: 50, width: 50, position: "relative", top: "-50%", right: "35%"}}/>
+<Image source={require('./Images/profile.png')} style={{height: 50, width: 50, position: "relative", bottom: "70%", left: "20%"}}/>
               </View>
 
            
@@ -81,7 +91,7 @@ const styles = StyleSheet.create({
   },
   PuffButton: {
     position: "relative",
-    top: "25%",
+    top: "16%",
     height: 55,
     width: "85%",
     borderRadius: 27,
@@ -92,7 +102,7 @@ const styles = StyleSheet.create({
   },
   PuffButton2: {
         position: "relative",
-    top: "24%",
+    top: "15%",
     height: 55,
     width: "85%",
     borderWidth: 2,
@@ -105,7 +115,7 @@ const styles = StyleSheet.create({
   },
   CircleView: {
     position: "relative",
-    bottom: "0%",
+    bottom: "-5%",
      width: 220, // Set desired width
     height: 220, // Set desired height (must be equal to width)
     borderRadius: 130, // Half of the width/height
@@ -117,11 +127,13 @@ const styles = StyleSheet.create({
   },
   vstack: {
     flexDirection: "column"
+  },
+  hstack: {
+    flexDirection: "row"
   }
 });
 
 
 // start expo
 //npx expo start
-
 

@@ -3,6 +3,7 @@ import { StyleSheet, Text, View, Button, TouchableOpacity, Image } from 'react-n
 import React, { useState } from "react"
 import { Tabs } from "expo-router"
 
+
 export default function App() {
 
   const [Count, setCount] = useState(0)
@@ -21,9 +22,8 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text  style={{fontSize: "35", fontFamily: "Fredoka One", position: "relative", bottom: "20%"}}>ZeroPuffs</Text>
+      <Image source={require('./Images/Font.png')} style={{height: 50, width: 200, position: "relative", top: "-7%"}}/>
       
-
 
       <View style={styles.CircleView}>
        <Text style={{color: "red", fontSize: 50, fontWeight: "semibold"}}>{Count}</Text>
@@ -109,7 +109,7 @@ const styles = StyleSheet.create({
   },
   CircleView: {
     position: "relative",
-    bottom: "3%",
+    bottom: "0%",
      width: 220, // Set desired width
     height: 220, // Set desired height (must be equal to width)
     borderRadius: 130, // Half of the width/height

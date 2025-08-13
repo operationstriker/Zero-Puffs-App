@@ -29,7 +29,7 @@ export default function App() {
        <Text style={{color: "#67ff49ff"}}>Nicotine</Text> */}
       </View>
 
-      <View style={{position: "relative", top: "7%"}}>
+      <View style={{position: "relative", top: "7%", left: "5%"}}>
         <View style={styles.vstack}>
         <Text style={{marginBottom: 20}}>20</Text>
         <Text style={{marginBottom: 20}}>15</Text>
@@ -63,11 +63,11 @@ export default function App() {
 <View style={{position: "relative", top: "23%"}}>
 
 
-<Image source={require('./Images/Plus.png')} style={{height: 50, width: 50, position: "relative", top: "10%"}}/>
-<Image source={require('./Images/quit.png')} style={{height: 50, width: 50, position: "relative", top: "-10%", right: "18%"}}/>
-<Image source={require('./Images/bar.png')} style={{height: 50, width: 50, position: "relative", bottom: "30%", left: "35%"}}/>
-<Image source={require('./Images/settings.png')} style={{height: 50, width: 50, position: "relative", top: "-50%", right: "35%"}}/>
-<Image source={require('./Images/profile.png')} style={{height: 50, width: 50, position: "relative", bottom: "70%", left: "20%"}}/>
+<Image source={require('./Images/Plus.png')} style={{height: 50, width: 50, position: "relative", top: "5%"}}/>
+<Image source={require('./Images/quit.png')} style={{height: 50, width: 50, position: "relative", top: "-14%", right: "18%"}}/>
+<Image source={require('./Images/bar.png')} style={{height: 50, width: 50, position: "relative", bottom: "35%", left: "35%"}}/>
+<Image source={require('./Images/settings.png')} style={{height: 50, width: 50, position: "relative", top: "-55%", right: "35%"}}/>
+<Image source={require('./Images/profile.png')} style={{height: 50, width: 50, position: "relative", bottom: "75%", left: "20%"}}/>
               </View>
 
            
@@ -112,6 +112,7 @@ const styles = StyleSheet.create({
     cursor: "pointer",
     justifyContent: "center",
     alignItems: "center",
+    boxshadow: "0 0 0 5px rgba(255, 10, 10, 1);"
   },
   CircleView: {
     position: "relative",

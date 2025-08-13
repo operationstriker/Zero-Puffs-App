@@ -39,7 +39,6 @@ export default function App() {
         <Text>NO PUFFS RECORDED</Text>
       </View> */}
 
-      {/* Graph */}
 
 
         <TouchableOpacity style={styles.PuffButton2}>
@@ -57,7 +56,7 @@ export default function App() {
 <View style={{position: "relative", top: "23%"}}>
 
 
- <Image source={require('./Images/Plus.png')} style={{height: 50, width: 50, position: "relative", top: "30%"}}/>
+<Image source={require('./Images/Plus.png')} style={{height: 50, width: 50, position: "relative", top: "30%"}}/>
 <Image source={require('./Images/settings.png')} style={{height: 50, width: 50, position: "relative", top: "10%", right: "18%"}}/>
 <Image source={require('./Images/bar.png')} style={{height: 50, width: 50, position: "relative", bottom: "10%", left: "35%"}}/>
 <Image source={require('./Images/settings.png')} style={{height: 50, width: 50, position: "relative", top: "-30%", right: "35%"}}/>
@@ -87,7 +86,7 @@ const styles = StyleSheet.create({
     position: "relative",
     top: "25%",
     height: 55,
-    width: "80%",
+    width: "85%",
     borderRadius: 27,
     backgroundColor: "#FF0000",
     cursor: "pointer",
@@ -98,7 +97,7 @@ const styles = StyleSheet.create({
         position: "relative",
     top: "24%",
     height: 55,
-    width: "80%",
+    width: "85%",
     borderWidth: 2,
     borderColor: "red",
     borderRadius: 27,

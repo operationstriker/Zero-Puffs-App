@@ -17,8 +17,9 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Image source={require('./Images/Font.png')} style={{height: 50, width: 200, position: "relative", top: "-5%"}}/>
-      
+      {/* <Image source={require('./Images/Font.png')} style={{height: 50, width: 200, position: "relative", top: "-5%"}}/>
+       */}
+       <Text style={{fontSize: 40, fontFamily: "Arial", bottom: "7%", color: "gray"}}>ZeroPuffs</Text>
 
       <View style={styles.CircleView}>
        <Text style={{color: "red", fontSize: 50, fontWeight: "semibold"}}>{Count}</Text>
@@ -28,11 +29,11 @@ export default function App() {
        <Text style={{color: "#67ff49ff"}}>Nicotine</Text> */}
       </View>
 
-      <View>
-        {/* <Text>0</Text>
+      <View style={styles.vstack}>
+        <Text>0</Text>
         <Text>5</Text>
         <Text>10</Text>
-        <Text>15</Text> */}
+        <Text>15</Text>
       </View>
 
 
@@ -114,12 +115,13 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
   },
-  ViewUsage: {
-
+  vstack: {
+    flexDirection: "column"
   }
 });
 
 
 // start expo
 //npx expo start
+
 

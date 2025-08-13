@@ -28,12 +28,6 @@ export default function App() {
        <Text style={{color: "#67ff49ff"}}>Nicotine</Text> */}
       </View>
 
-      {/* <View style={styles.ViewUsage}>
-        <Text style={{textAlign: "center"}}>Usage today</Text>
-
-        <Text>NO PUFFS RECORDED</Text>
-      </View> */}
-
       <View>
         {/* <Text>0</Text>
         <Text>5</Text>

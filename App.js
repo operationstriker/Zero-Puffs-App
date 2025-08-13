@@ -8,21 +8,16 @@ export default function App() {
 
   const [Count, setCount] = useState(0)
 
-  console.log("f")
 
-  console.log("$")
-  console.log("$3")
-
-  if (Count === 7) {
+  if (Count == 7) {
     console.log("True")
-    print("true")
-    print("R")
+    console.log("R")
 
   }
 
   return (
     <View style={styles.container}>
-      <Image source={require('./Images/Font.png')} style={{height: 50, width: 200, position: "relative", top: "-7%"}}/>
+      <Image source={require('./Images/Font.png')} style={{height: 50, width: 200, position: "relative", top: "-5%"}}/>
       
 
       <View style={styles.CircleView}>
@@ -38,6 +33,13 @@ export default function App() {
 
         <Text>NO PUFFS RECORDED</Text>
       </View> */}
+
+      <View>
+        {/* <Text>0</Text>
+        <Text>5</Text>
+        <Text>10</Text>
+        <Text>15</Text> */}
+      </View>
 
 
 

@@ -7,7 +7,7 @@ import { Tabs } from "expo-router"
 export default function App() {
 
   const [Count, setCount] = useState(0)
-
+//
 
   if (Count == 7) {
     console.log("True")

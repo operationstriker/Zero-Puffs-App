@@ -47,11 +47,12 @@ const styles = StyleSheet.create({
   Header: {
     height: 50,
     flexDirection: "row",
-    width: 100,
+    width: 130,
     marginRight: 20
   }
 
 });
+
 
 
 

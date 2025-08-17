@@ -12,6 +12,13 @@ export default function App() {
   return (
     <View style={styles.container}>
      <Text style={{fontWeight: "bold", fontSize: 30, textAlign: "center", position: "relative", bottom: "40%"}}>Quit Plan</Text>
+
+    <View>
+        <Text>Countdown Timer</Text>
+    </View>
+
+
+
     </View>
   );
 }

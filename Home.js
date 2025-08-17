@@ -45,10 +45,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   Header: {
-    height: 30,
+    height: 50,
     flexDirection: "row",
     width: 100
   }
 
 });
+
 

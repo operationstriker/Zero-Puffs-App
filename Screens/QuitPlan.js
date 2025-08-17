@@ -11,7 +11,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-     
+     <Text>Quit Plan</Text>
     </View>
   );
 }
@@ -33,4 +33,3 @@ const styles = StyleSheet.create({
   }
 
 });
-

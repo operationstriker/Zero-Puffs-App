@@ -12,7 +12,7 @@ export default function App() {
   return (
     <View style={styles.container}>
             <TouchableOpacity style={styles.PuffButton2}>
-            <Text style={{textAlign: "center", color: "red", fontSize: "28", fontWeight: "semibold"}}>Yesterday</Text>
+            <Text>Yesterday</Text>
           </TouchableOpacity>
 
 
@@ -36,3 +36,4 @@ const styles = StyleSheet.create({
   },
 
 });
+

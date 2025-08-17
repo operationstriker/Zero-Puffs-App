@@ -12,5 +12,4 @@ import QuitPlan from './Screens/QuitPlan'
 // the environment is set up appropriately
 registerRootComponent(App);
 registerRootComponent(App2);
-registerRootComponent(QuitPlan);
-// registerRootComponent(LayoutScreen);
+// registerRootComponent(QuitPlan);

@@ -21,7 +21,7 @@ export default function App() {
           </TouchableOpacity>
 
         <TouchableOpacity style={styles.PuffButton2}>
-        <Text style={{fontSize: "20", fontWeight: "semibold"}}>Month</Text>
+        <Text style={{fontSize: "20", fontWeight: "semibold", marginRight: 20}}>Month</Text>
         </TouchableOpacity>
         </View>
 
@@ -52,5 +52,6 @@ const styles = StyleSheet.create({
   }
 
 });
+
 
 

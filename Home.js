@@ -46,8 +46,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   Header: {
-    flexDirection: "row"
+    height: 30,
+    flexDirection: "row",
+    width: 30
   }
 
 });
+
 

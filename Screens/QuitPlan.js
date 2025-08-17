@@ -11,7 +11,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-     <Text style={{fontWeight: "bold", fontSize: 20, textAlign: "center"}}>Quit Plan</Text>
+     <Text style={{fontWeight: "bold", fontSize: 20, textAlign: "center", position: "relative"}}>Quit Plan</Text>
     </View>
   );
 }

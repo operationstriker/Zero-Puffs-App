@@ -7,7 +7,7 @@ import { Tabs } from "expo-router"
 export default function App() {
 
   const [Count, setCount] = useState(0)
-//
+
 
   if (Count == 7) {
     console.log("True")
@@ -31,9 +31,9 @@ export default function App() {
 
       <View style={{position: "relative", top: "7%", left: "5%"}}>
         <View style={styles.vstack}>
-        <Text style={{marginBottom: 20}}>20</Text>
-        <Text style={{marginBottom: 20}}>15</Text>
-        <Text style={{marginBottom: 20}}>10</Text>
+        <Text style={{marginBottom: 20}}>20 </Text>
+        <Text style={{marginBottom: 20}}>15 </Text>
+        <Text style={{marginBottom: 20}}>10 </Text>
         <Text style={{marginBottom: 20}}>5</Text>
         </View>
 
@@ -66,8 +66,7 @@ export default function App() {
 <Image source={require('./Images/Plus.png')} style={{height: 50, width: 50, position: "relative", top: "5%"}}/>
 <Image source={require('./Images/quit.png')} style={{height: 50, width: 50, position: "relative", top: "-14%", right: "18%"}}/>
 <Image source={require('./Images/bar.png')} style={{height: 50, width: 50, position: "relative", bottom: "35%", left: "35%"}}/>
-<Image source={require('./Images/settings.png')} style={{height: 50, width: 50, position: "relative", top: "-55%", right: "35%"}}/>
-<Image source={require('./Images/profile.png')} style={{height: 50, width: 50, position: "relative", bottom: "75%", left: "20%"}}/>
+<Image source={require('./Images/Profile.png')} style={{height: 50, width: 50, position: "relative", bottom: "75%", left: "20%"}}/>
               </View>
 
            
@@ -78,6 +77,8 @@ export default function App() {
       <Tabs>
         <Tabs.Screen></Tabs.Screen>
       </Tabs> */}
+
+      {/* Line on top of tab item */}
     </View>
   );
 }

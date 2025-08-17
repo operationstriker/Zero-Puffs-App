@@ -1,7 +1,7 @@
 import { registerRootComponent } from 'expo';
 
 import App from './App';
-import App2 from './Screens/VapeUsage.js'
+import App2 from './Screens/Home.js'
 import App3 from './Screens/Home2.js'
 // import { LayoutScreen } from './Screens/Layout.js';
 

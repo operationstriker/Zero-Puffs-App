@@ -65,7 +65,7 @@ export default function App() {
 
 <Image source={require('./Images/Plus.png')} style={{height: 50, width: 50, position: "relative", top: "2%"}}/>
 <Image source={require('./Images/quit.png')} style={{height: 50, width: 50, position: "relative", top: "-14%", right: "18%"}}/>
-<Image source={require('./Images/bar.png')} style={{height: 50, width: 50, position: "relative", bottom: "35%", left: "35%"}}/>
+<Image source={require('./Images/bar.png')} style={{height: 50, width: 50, position: "relative", bottom: "45%", left: "35%"}}/>
 <Image source={require('./Images/Profile.png')} style={{height: 50, width: 50, position: "relative", bottom: "75%", left: "20%"}}/>
               </View>
 

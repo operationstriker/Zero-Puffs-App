@@ -11,7 +11,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-     <Text>Quit Plan</Text>
+     <Text style={{fontWeight: "bold"}}>Quit Plan</Text>
     </View>
   );
 }

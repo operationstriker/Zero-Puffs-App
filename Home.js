@@ -11,8 +11,8 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-        <View>
-            
+        <View style={styles.Header}>
+
         </View>
             <TouchableOpacity style={styles.PuffButton2}>
             <Text>Yesterday</Text>

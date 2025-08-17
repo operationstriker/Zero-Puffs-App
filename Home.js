@@ -45,5 +45,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  Header: {
+    flexDirection: "row"
+  }
 
 });
+

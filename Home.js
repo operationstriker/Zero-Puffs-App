@@ -13,7 +13,7 @@ export default function App() {
     <View style={styles.container}>
         <View style={styles.Header}>
             <TouchableOpacity style={styles.PuffButton2}>
-            <Text style={{fontSize: "20", fontWeight: "semibold"}}>Yesterday</Text>
+            <Text style={{fontSize: "20", fontWeight: "semibold", marginRight: 20}}>Yesterday</Text>
           </TouchableOpacity>
 
         <TouchableOpacity style={styles.PuffButton2}>
@@ -52,3 +52,4 @@ const styles = StyleSheet.create({
   }
 
 });
+

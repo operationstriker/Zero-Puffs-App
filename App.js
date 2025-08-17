@@ -62,6 +62,9 @@ export default function App() {
 
 <View style={{position: "relative", top: "23%"}}>
 
+<Tabs>
+  <Tabs></Tabs>
+</Tabs>
 
 <Image source={require('./Images/Plus.png')} style={{height: 50, width: 50, position: "relative", top: "2%"}}/>
 <Image source={require('./Images/quit.png')} style={{height: 50, width: 50, position: "relative", top: "-14%", right: "18%"}}/>
@@ -69,9 +72,9 @@ export default function App() {
 <Image source={require('./Images/Profile.png')} style={{height: 50, width: 50, position: "relative", bottom: "75%", left: "20%"}}/>
               </View>
 
-           
+{/* Questions and that before they sign up */}
       
-
+{/* Puff Center Screen, Profile (Settings), Vape USage */}
       {/* images, plus, graph, settings */}
 {/* 
       <Tabs>

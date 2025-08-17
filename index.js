@@ -2,6 +2,7 @@ import { registerRootComponent } from 'expo';
 
 import App from './App';
 import App2 from './Screens/Home.js'
+import QuitPlan from './Screens/QuitPlan'
 
 
 // import { LayoutScreen } from './Screens/Layout.js';

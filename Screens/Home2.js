@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, TouchableOpacity, Image } from 'react-native';
 import React, { useState } from "react"
 import { Tabs } from "expo-router"
-
+//View Usage
 
 export default function App() {
 
@@ -33,4 +33,5 @@ const styles = StyleSheet.create({
   }
 
 });
+
 

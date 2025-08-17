@@ -50,6 +50,7 @@ const styles = StyleSheet.create({
   },
   Header: {
     position: "relative",
+    right: 70,
     height: 50,
     flexDirection: "row",
     width: 130,

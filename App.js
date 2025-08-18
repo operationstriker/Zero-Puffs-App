@@ -39,7 +39,7 @@ export default function App() {
         fill={fill}
         tintColor="#ff0000ff"
         backgroundColor="#3d5875"
-          rotation={-10}>
+          rotation={-6}>
         {
           (fill) => (
             <Text>

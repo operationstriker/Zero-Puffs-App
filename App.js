@@ -30,7 +30,7 @@ export default function App() {
         width={15}
         fill={fill}
         tintColor="#ff0000ff"
-        backgroundColor="#3d5875"
+        backgroundColor="#bababaff"
           rotation={-6}>
         {
           (fill) => (

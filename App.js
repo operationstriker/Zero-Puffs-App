@@ -3,10 +3,17 @@ import { StyleSheet, Text, View, Button, TouchableOpacity, Image } from 'react-n
 import React, { useState } from "react"
 // import { Tabs } from "expo-router"
 // import ProgressCircle from "react-native-progress-circle"
+import { AnimatedCircularProgress } from 'react-native-circular-progress';
 
 export default function App() {
 
   const [Count, setCount] = useState(0)
+
+
+    const [value, setValue] = useState(1) // create a variable
+    const maxValue = 20;
+  
+      const fill = (value / maxValue) * 100;
 
   if (Count == 7) {
     console.log("True")
@@ -25,6 +32,22 @@ export default function App() {
 
        <Text>out of 20</Text>
       </View>
+
+            <AnimatedCircularProgress
+        size={200}
+        width={10}
+        fill={fill}
+        tintColor="#ff0000ff"
+        backgroundColor="#3d5875"
+          rotation={-10}>
+        {
+          (fill) => (
+            <Text>
+              {value} / {maxValue}  {/* display actual value */}
+            </Text>
+          )
+        }
+      </AnimatedCircularProgress>
 {/* 
       <ProgressCircle percent={30}
             radius={50}
@@ -63,14 +86,11 @@ export default function App() {
       </TouchableOpacity>
       <StatusBar style="auto" />
 
-    {/* <img src={PlusImage}></img> */}
-
 <View style={{position: "relative", top: "23%"}}>
 <Image source={require('./Images/Plus.png')} style={{height: 50, width: 50, position: "relative", top: "-15%"}}/>
 <Image source={require('./Images/bar.png')} style={{height: 50, width: 50, position: "relative", bottom: "45%", left: "35%"}}/>
 <Image source={require('./Images/Profile.png')} style={{height: 50, width: 50, position: "relative", bottom: "85%", left: "-30%"}}/>
 </View>
-
     </View>
   );
 }

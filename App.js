@@ -19,6 +19,10 @@ export default function App() {
 
   }
 
+  function pufffunc() {
+    
+  }
+
   return (
     <View style={styles.container}>
        <Text style={{fontSize: 40, fontFamily: "Arial", bottom: "-1%", color: "gray"}}>ZeroPuffs</Text>
@@ -73,7 +77,7 @@ export default function App() {
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.PuffButton} onPress={(() => setCount(Count + 1))}>
-        <Text style={{textAlign: "center", color: "white", fontSize: "28", fontWeight: "semibold"}}>PUFF</Text>
+        <Text style={{textAlign: "center", color: "white", fontSize: "28", fontWeight: "semibold"}} onPress={pufffunc}>PUFF</Text>
       </TouchableOpacity>
       <StatusBar style="auto" />
 

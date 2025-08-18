@@ -36,11 +36,19 @@ export default function App() {
       </AnimatedCircularProgress>
 
       <View>
-        <Text>Update Puffs</Text>
+        <Text style={{fontWeight: "bold"}}>Update Puffs</Text>
+        <View style={{flexDirection: "row"}}>
+        <Button title='Add'></Button>
+        <Button title='Overwrite'></Button>
+        </View>
+       
+
 
         <Text>Enter Puff Amount</Text>
 
         <TextInput placeholder='HF'></TextInput>
+
+        <Button title='Update'></Button>
 
       </View>
 

@@ -18,7 +18,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-       <Text style={{fontSize: 40, fontFamily: "Arial", bottom: "-1%", color: "gray"}}>ZeroPuffs</Text>
+       <Text style={{fontSize: 40, fontFamily: "Arial", bottom: "4%", color: "gray"}}>ZeroPuffs</Text>
 
             <AnimatedCircularProgress
         size={220}
@@ -29,22 +29,14 @@ export default function App() {
           rotation={-6}>
         {
           (fill) => (
-            <Text style={{fontSize: 40}}> {value} </Text>
+            <Text style={{fontSize: 40}}> {value}</Text>
+
             // <Text>
             //   {value} / {maxValue}  {/* display actual value */}
             // </Text>
           )
         }
       </AnimatedCircularProgress>
-{/* 
-      <ProgressCircle percent={30}
-            radius={50}
-            borderWidth={8}
-            color="#3399FF"
-            shadowColor="#999"
-            bgColor="#c06969ff">
-<Text style={{ fontSize: 18 }}>{'30%'}</Text>
-      </ProgressCircle> */}
 
       <View style={{position: "relative", top: "7%", left: "5%"}}>
         <View style={styles.vstack}>

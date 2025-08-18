@@ -10,11 +10,7 @@ export default function App() {
   
       const fill = (value / maxValue) * 100;
 
-  if (Count == 7) {
-    console.log("True")
-    console.log("R")
-
-  }
+  // pop up when there close to their max
 
   function pufffunc() {
     setValue(value + 1)

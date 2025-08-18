@@ -26,7 +26,6 @@ export default function App() {
        <Text style={{fontSize: 40, fontFamily: "Arial", bottom: "-1%", color: "gray"}}>ZeroPuffs</Text>
 
       <View style={styles.CircleView}>
-       <Text style={{color: "red", fontSize: 50, fontWeight: "semibold"}}>{Count}</Text>
 
        <Text>out of 20</Text>
       </View>

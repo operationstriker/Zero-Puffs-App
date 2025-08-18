@@ -1,8 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, TouchableOpacity, Image } from 'react-native';
 import React, { useState } from "react"
-import { Tabs } from "expo-router"
-import ProgressCircle from "react-native-progress-circle"
+// import { Tabs } from "expo-router"
+// import ProgressCircle from "react-native-progress-circle"
 
 export default function App() {
 
@@ -24,8 +24,6 @@ export default function App() {
        <Text style={{color: "red", fontSize: 50, fontWeight: "semibold"}}>{Count}</Text>
 
        <Text>out of 20</Text>
-       {/* <Text style={{color: "#FFBD36"}}>1.23 mg</Text>
-       <Text style={{color: "#67ff49ff"}}>Nicotine</Text> */}
       </View>
 {/* 
       <ProgressCircle percent={30}
@@ -73,15 +71,6 @@ export default function App() {
 <Image source={require('./Images/Profile.png')} style={{height: 50, width: 50, position: "relative", bottom: "85%", left: "-30%"}}/>
 </View>
 
-{/* Questions and that before they sign up */}
-      
-{/* Puff Center Screen, Profile (Settings), Vape USage */}
-      {/* images, plus, graph, settings */}
-{/* 
-      <Tabs>
-        <Tabs.Screen></Tabs.Screen>
-      </Tabs> */}
-      {/* Line on top of tab item */}
     </View>
   );
 }

@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, TouchableOpacity, Image } from 'react-native';
 import React, { useState } from "react"
 import { Tabs } from "expo-router"
-
+import ProgressCircle from "react-native-progress-circle"
 
 export default function App() {
 
@@ -59,9 +59,9 @@ export default function App() {
     {/* <img src={PlusImage}></img> */}
 
 <View style={{position: "relative", top: "23%"}}>
-<Image source={require('./Images/Plus.png')} style={{height: 50, width: 50, position: "relative", top: "2%"}}/>
+<Image source={require('./Images/Plus.png')} style={{height: 50, width: 50, position: "relative", top: "-15%"}}/>
 <Image source={require('./Images/bar.png')} style={{height: 50, width: 50, position: "relative", bottom: "45%", left: "35%"}}/>
-<Image source={require('./Images/Profile.png')} style={{height: 50, width: 50, position: "relative", bottom: "75%", left: "20%"}}/>
+<Image source={require('./Images/Profile.png')} style={{height: 50, width: 50, position: "relative", bottom: "85%", left: "-30%"}}/>
 </View>
 
 {/* Questions and that before they sign up */}

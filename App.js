@@ -34,8 +34,8 @@ export default function App() {
       </View>
 
             <AnimatedCircularProgress
-        size={200}
-        width={10}
+        size={220}
+        width={15}
         fill={fill}
         tintColor="#ff0000ff"
         backgroundColor="#3d5875"

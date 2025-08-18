@@ -28,8 +28,13 @@ export default function App() {
        <Text style={{color: "#67ff49ff"}}>Nicotine</Text> */}
       </View>
 
-      <ProgressCircle>
-        
+      <ProgressCircle percent={30}
+            radius={50}
+            borderWidth={8}
+            color="#3399FF"
+            shadowColor="#999"
+            bgColor="#c06969ff">
+<Text style={{ fontSize: 18 }}>{'30%'}</Text>
       </ProgressCircle>
 
       <View style={{position: "relative", top: "7%", left: "5%"}}>

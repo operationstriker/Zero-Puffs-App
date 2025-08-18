@@ -23,8 +23,6 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      {/* <Image source={require('./Images/Font.png')} style={{height: 50, width: 200, position: "relative", top: "-5%"}}/>
-       */}
        <Text style={{fontSize: 40, fontFamily: "Arial", bottom: "-1%", color: "gray"}}>ZeroPuffs</Text>
 
       <View style={styles.CircleView}>
@@ -128,18 +126,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     boxshadow: "0 0 0 5px rgba(255, 10, 10, 1);"
   },
-  CircleView: {
-    position: "relative",
-    bottom: "-5%",
-     width: 220, // Set desired width
-    height: 220, // Set desired height (must be equal to width)
-    borderRadius: 130, // Half of the width/height
-    borderWidth: 15,
-    borderColor: "lightgray",
-    backgroundColor: 'transparent', // Example background color
-    justifyContent: "center",
-    alignItems: "center",
-  },
+
   vstack: {
     flexDirection: "column"
   },

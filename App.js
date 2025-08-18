@@ -20,7 +20,7 @@ export default function App() {
   }
 
   function pufffunc() {
-    setValue(Count + 1)
+    setValue(value + 1)
   }
 
   return (

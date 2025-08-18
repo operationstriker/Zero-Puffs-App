@@ -30,13 +30,11 @@ export default function App() {
         {
           (fill) => (
             <Text style={{fontSize: 40}}> {value}</Text>
-
-            // <Text>
-            //   {value} / {maxValue}  {/* display actual value */}
-            // </Text>
           )
         }
       </AnimatedCircularProgress>
+
+
 
       <View style={{position: "relative", top: "7%", left: "5%"}}>
         <View style={styles.vstack}>
@@ -54,7 +52,6 @@ export default function App() {
         <Text style={{marginRight: 35}}>20</Text>
         <Text style={{marginRight: 35}}>25</Text>
         </View>
-
       </View>
 
         <TouchableOpacity style={styles.PuffButton2}>

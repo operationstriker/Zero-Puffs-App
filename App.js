@@ -27,7 +27,7 @@ export default function App() {
        {/* <Text style={{color: "#FFBD36"}}>1.23 mg</Text>
        <Text style={{color: "#67ff49ff"}}>Nicotine</Text> */}
       </View>
-
+{/* 
       <ProgressCircle percent={30}
             radius={50}
             borderWidth={8}
@@ -35,7 +35,7 @@ export default function App() {
             shadowColor="#999"
             bgColor="#c06969ff">
 <Text style={{ fontSize: 18 }}>{'30%'}</Text>
-      </ProgressCircle>
+      </ProgressCircle> */}
 
       <View style={{position: "relative", top: "7%", left: "5%"}}>
         <View style={styles.vstack}>
@@ -137,7 +137,3 @@ const styles = StyleSheet.create({
     flexDirection: "row"
   }
 });
-
-
-// start expo
-//npx expo start

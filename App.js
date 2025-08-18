@@ -42,9 +42,10 @@ export default function App() {
           rotation={-6}>
         {
           (fill) => (
-            <Text>
-              {value} / {maxValue}  {/* display actual value */}
-            </Text>
+            <Text> {value} </Text>
+            // <Text>
+            //   {value} / {maxValue}  {/* display actual value */}
+            // </Text>
           )
         }
       </AnimatedCircularProgress>

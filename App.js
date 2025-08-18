@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, TouchableOpacity, Image } from 'react-native';
 import React, { useState } from "react"
 import { AnimatedCircularProgress } from 'react-native-circular-progress';
+import { TextInput } from 'react-native';
 
 export default function App() {
 
@@ -33,6 +34,15 @@ export default function App() {
           )
         }
       </AnimatedCircularProgress>
+
+      <View>
+        <Text>Update Puffs</Text>
+
+        <Text>Enter Puff Amount</Text>
+
+        <TextInput placeholder='HF'></TextInput>
+
+      </View>
 
 
 

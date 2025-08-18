@@ -6,7 +6,7 @@ import { AnimatedCircularProgress } from 'react-native-circular-progress';
 export default function App() {
 
     const [value, setValue] = useState(0) // create a variable
-    const maxValue = 100000000;
+    const maxValue = 20;
   
       const fill = (value / maxValue) * 100;
 

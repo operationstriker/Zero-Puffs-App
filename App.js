@@ -1,8 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, TouchableOpacity, Image } from 'react-native';
 import React, { useState } from "react"
-// import { Tabs } from "expo-router"
-// import ProgressCircle from "react-native-progress-circle"
 import { AnimatedCircularProgress } from 'react-native-circular-progress';
 
 export default function App() {

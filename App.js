@@ -5,9 +5,6 @@ import { AnimatedCircularProgress } from 'react-native-circular-progress';
 
 export default function App() {
 
-  const [Count, setCount] = useState(0)
-
-
     const [value, setValue] = useState(0) // create a variable
     const maxValue = 20;
   

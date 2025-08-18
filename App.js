@@ -25,10 +25,6 @@ export default function App() {
     <View style={styles.container}>
        <Text style={{fontSize: 40, fontFamily: "Arial", bottom: "-1%", color: "gray"}}>ZeroPuffs</Text>
 
-      <View style={styles.CircleView}>
-
-      </View>
-
             <AnimatedCircularProgress
         size={220}
         width={15}

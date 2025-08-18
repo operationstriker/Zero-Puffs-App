@@ -34,7 +34,7 @@ export default function App() {
           rotation={-6}>
         {
           (fill) => (
-            <Text> {value} </Text>
+            <Text style={{fontSize: 40}}> {value} </Text>
             // <Text>
             //   {value} / {maxValue}  {/* display actual value */}
             // </Text>

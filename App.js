@@ -8,7 +8,7 @@ export default function App() {
   const [Count, setCount] = useState(0)
 
 
-    const [value, setValue] = useState(1) // create a variable
+    const [value, setValue] = useState(8) // create a variable
     const maxValue = 20;
   
       const fill = (value / maxValue) * 100;
@@ -20,7 +20,7 @@ export default function App() {
   }
 
   function pufffunc() {
-    
+    setValue(Count + 1)
   }
 
   return (

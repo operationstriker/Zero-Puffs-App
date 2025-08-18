@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, TouchableOpacity, Image } from 'react-native';
-import React, { useState } from "react"
+import React, { useState } from "react";
 import ProgressCircle from "react-native-progress-circle"
 //View Usage
 
@@ -11,14 +11,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-    {/* <ProgressCircle percent={30}
-                 radius={50}
-                 borderWidth={8}
-                 color="#3399FF"
-                 shadowColor="#999"
-                 bgColor="#c06969ff">
-     <Text style={{ fontSize: 18 }}>{'30%'}</Text>
-    </ProgressCircle> */}
+
 
           <ProgressCircle percent={30}
             radius={50}
@@ -26,7 +19,7 @@ export default function App() {
             color="#3399FF"
             shadowColor="#999"
             bgColor="#c06969ff">
-<Text style={{ fontSize: 18 }}>{'30%'}</Text>
+<Text style={{ fontSize: 18 }}>30</Text>
       </ProgressCircle> 
 
     <Text>ff</Text>
@@ -41,13 +34,5 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  Header: {
-    position: "relative",
-    right: 85,
-    height: 50,
-    flexDirection: "row",
-    width: 130,
-    marginRight: 20
-  }
 
 });

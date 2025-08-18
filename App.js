@@ -28,6 +28,10 @@ export default function App() {
        <Text style={{color: "#67ff49ff"}}>Nicotine</Text> */}
       </View>
 
+      <ProgressCircle>
+        
+      </ProgressCircle>
+
       <View style={{position: "relative", top: "7%", left: "5%"}}>
         <View style={styles.vstack}>
         <Text style={{marginBottom: 20}}>20 </Text>

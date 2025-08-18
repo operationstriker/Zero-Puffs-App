@@ -6,7 +6,7 @@ import { AnimatedCircularProgress } from 'react-native-circular-progress';
 export default function App() {
 
     const [value, setValue] = useState(0) // create a variable
-    const maxValue = 20;
+    const maxValue = 10000;
   
       const fill = (value / maxValue) * 100;
 
@@ -69,7 +69,7 @@ export default function App() {
         <Text style={{textAlign: "center", color: "red", fontSize: "28", fontWeight: "semibold"}}>UPDATE  PUFFS</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.PuffButton} onPress={(() => setCount(Count + 1))}>
+      <TouchableOpacity style={styles.PuffButton} onPress={(() => setValue(Count + 1))}>
         <Text style={{textAlign: "center", color: "white", fontSize: "28", fontWeight: "semibold"}} onPress={pufffunc}>PUFF</Text>
       </TouchableOpacity>
       <StatusBar style="auto" />
@@ -123,3 +123,4 @@ const styles = StyleSheet.create({
     flexDirection: "row"
   }
 });
+

@@ -8,7 +8,6 @@ export default function App() {
 
   const [Count, setCount] = useState(0)
 
-
   if (Count == 7) {
     console.log("True")
     console.log("R")
@@ -59,18 +58,11 @@ export default function App() {
 
     {/* <img src={PlusImage}></img> */}
 
-
 <View style={{position: "relative", top: "23%"}}>
-
-<Tabs>
-  <Tabs></Tabs>
-</Tabs>
-
 <Image source={require('./Images/Plus.png')} style={{height: 50, width: 50, position: "relative", top: "2%"}}/>
-<Image source={require('./Images/quit.png')} style={{height: 50, width: 50, position: "relative", top: "-14%", right: "18%"}}/>
 <Image source={require('./Images/bar.png')} style={{height: 50, width: 50, position: "relative", bottom: "45%", left: "35%"}}/>
 <Image source={require('./Images/Profile.png')} style={{height: 50, width: 50, position: "relative", bottom: "75%", left: "20%"}}/>
-              </View>
+</View>
 
 {/* Questions and that before they sign up */}
       
@@ -80,7 +72,6 @@ export default function App() {
       <Tabs>
         <Tabs.Screen></Tabs.Screen>
       </Tabs> */}
-
       {/* Line on top of tab item */}
     </View>
   );
@@ -141,4 +132,3 @@ const styles = StyleSheet.create({
 
 // start expo
 //npx expo start
-

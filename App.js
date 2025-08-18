@@ -27,7 +27,6 @@ export default function App() {
 
       <View style={styles.CircleView}>
 
-       <Text>out of 20</Text>
       </View>
 
             <AnimatedCircularProgress

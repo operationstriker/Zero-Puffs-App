@@ -3,8 +3,6 @@ import { StyleSheet, Text, View, Button, TouchableOpacity, Image } from 'react-n
 import React, { useState } from "react"
 import { AnimatedCircularProgress } from 'react-native-circular-progress';
 import { TextInput } from 'react-native';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-
 
 export default function App() {
 
@@ -30,17 +28,12 @@ export default function App() {
     setVisibility(false)
   }
 
-  // const UpdateDiv = UpdateDivElement
-
-  // function OpenDiv() {
-  //    UpdateDiv.display = "block"
-  // }
 
   return (
     <View style={styles.container}>
        <Text style={{fontSize: 40, fontFamily: "Arial", bottom: "4%", color: "gray"}}>ZeroPuffs</Text>
 
-            <AnimatedCircularProgress
+        <AnimatedCircularProgress
         size={220}
         width={15}
         fill={fill}
@@ -55,7 +48,7 @@ export default function App() {
       </AnimatedCircularProgress>
  
       {isVisible && (
-<View style={styles.UpdateDivElement}> 
+        <View style={styles.UpdateDivElement}> 
         <Text style={{fontWeight: "bold", textAlign: "center"}}>Update Puffs</Text>
         <TouchableOpacity onPress={CloseDiv}>
           <Text>Close</Text>
@@ -99,10 +92,11 @@ export default function App() {
       </TouchableOpacity>
       <StatusBar style="auto" />
 
+
 <View style={{position: "relative", top: "23%"}}>
-<Image source={require('./Images/Plus.png')} style={{height: 50, width: 50, position: "relative", top: "-15%"}}/>
-<Image source={require('./Images/bar.png')} style={{height: 50, width: 50, position: "relative", bottom: "45%", left: "35%"}}/>
-<Image source={require('./Images/Profile.png')} style={{height: 50, width: 50, position: "relative", bottom: "85%", left: "-30%"}}/>
+<Image source={require('../Images/Plus.png')} style={{height: 50, width: 50, position: "relative", top: "-15%"}}/>
+<Image source={require('../Images/bar.png')} style={{height: 50, width: 50, position: "relative", bottom: "45%", left: "35%"}}/>
+<Image source={require('../Images/Profile.png')} style={{height: 50, width: 50, position: "relative", bottom: "85%", left: "-30%"}}/>
 </View>
     </View>
   );

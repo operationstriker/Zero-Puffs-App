@@ -59,7 +59,7 @@ export default function App() {
         <Button title='Add'></Button>
         <Button title='Overwrite'></Button>
         </View>
-        <Text>Enter Puff Amount</Text>
+        <Text>Enter Puffs:</Text>
         <TextInput keyboardType='number-pad'></TextInput>
         <TouchableOpacity title="Update" style={{backgroundColor: "red", height: 30, width: 130, borderRadius: 8, position: "relative",}}>
           <Text style={{textAlign: "center", color: "white", fontSize: 20}}>Update</Text>

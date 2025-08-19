@@ -61,8 +61,8 @@ export default function App() {
         </View>
         <Text>Enter Puff Amount</Text>
         <TextInput keyboardType='number-pad'></TextInput>
-        <TouchableOpacity title="Update" style={{backgroundColor: "red", height: 25, width: 150, borderRadius: 8}}>
-          <Text style={{textAlign: "center", color: "white"}}>Update</Text>
+        <TouchableOpacity title="Update" style={{backgroundColor: "red", height: 30, width: 130, borderRadius: 8, position: "relative",}}>
+          <Text style={{textAlign: "center", color: "white", fontSize: 20}}>Update</Text>
         </TouchableOpacity>
       </View>
       )}
@@ -144,8 +144,8 @@ const styles = StyleSheet.create({
   },
   UpdateDivElement: {
     backgroundColor: "gray",
-    borderRadius: 10,
-    height: 230,
+    borderRadius: 20,
+    height: 180,
     width: 200
   }
 });

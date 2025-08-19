@@ -51,6 +51,9 @@ export default function App() {
       {isVisible && (
 <View style={styles.UpdateDivElement}> 
         <Text style={{fontWeight: "bold", textAlign: "center"}}>Update Puffs</Text>
+        <TouchableOpacity>
+          <Text>Close</Text>
+        </TouchableOpacity>
         <View style={{flexDirection: "row"}}>
         <Button title='Add'></Button>
         <Button title='Overwrite'></Button>

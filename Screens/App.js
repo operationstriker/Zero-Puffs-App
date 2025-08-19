@@ -53,7 +53,7 @@ export default function App() {
         <View style={styles.UpdateDivElement}> 
         <Text style={{fontWeight: "bold", textAlign: "center"}}>Update Puffs</Text>
         <TouchableOpacity onPress={CloseDiv}>
-          <Text>Close</Text>
+          <Text>X</Text>
         </TouchableOpacity>
         <View style={{flexDirection: "row"}}>
         <Button title='Add'></Button>
@@ -143,7 +143,7 @@ const styles = StyleSheet.create({
     flexDirection: "row"
   },
   UpdateDivElement: {
-    backgroundColor: "gray",
+    backgroundColor: "rgba(220, 220, 220, 1)",
     borderRadius: 20,
     height: 180,
     width: 200

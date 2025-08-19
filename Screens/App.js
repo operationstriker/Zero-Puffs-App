@@ -33,7 +33,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-       <Text style={{fontSize: 30, fontFamily: "Calbri", bottom: "4%", color: "#1E1E1E"}}>ZERO PUFFS</Text>
+       <Text style={{fontSize: 30, fontFamily: "Calbri", bottom: "4%", color: "#1E1E1E"}}>ZERO PUFFS </Text>
 
         <AnimatedCircularProgress
         size={220}
@@ -46,7 +46,7 @@ export default function App() {
           (fill) => (
             <View>
              <Text style={{fontSize: 40, textAlign: "center"}}> {value}</Text>
-             <Text></Text>
+             <Text style={{fontSize: 20}}>out of 25</Text>
             </View>
             
           )

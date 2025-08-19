@@ -3,6 +3,8 @@ import { StyleSheet, Text, View, Button, TouchableOpacity, Image } from 'react-n
 import React, { useState } from "react"
 import { AnimatedCircularProgress } from 'react-native-circular-progress';
 import { TextInput } from 'react-native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+
 
 export default function App() {
 

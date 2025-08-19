@@ -21,7 +21,7 @@ export default function App() {
   const [isVisible, setVisibility] = useState(false);
 
   const toggleVisibility = () => {
-    setVisibility(!isVisible)
+    setVisibility(!isVisible);
   }
 
   // const UpdateDiv = UpdateDivElement
@@ -54,15 +54,9 @@ export default function App() {
         <Button title='Add'></Button>
         <Button title='Overwrite'></Button>
         </View>
-       
-
-
         <Text>Enter Puff Amount</Text>
-
         <TextInput placeholder='HF'></TextInput>
-
         <Button title='Update'></Button>
-
       </View>
 
 

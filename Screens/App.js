@@ -33,7 +33,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-       <Text style={{fontSize: 40, fontFamily: "Arial", bottom: "4%", color: "gray"}}>ZeroPuffs</Text>
+       <Text style={{fontSize: 35, fontFamily: "Arial", bottom: "4%", color: "gray"}}>Zero Puffs</Text>
 
         <AnimatedCircularProgress
         size={220}
@@ -49,7 +49,7 @@ export default function App() {
         }
       </AnimatedCircularProgress>
  
-      {isVisible && (
+      {/* {isVisible && (
         <View style={styles.UpdateDivElement}> 
         <Text style={{fontWeight: 500, textAlign: "center", fontSize: 25}}>Update Puffs</Text>
         <TouchableOpacity onPress={CloseDiv}>
@@ -61,11 +61,11 @@ export default function App() {
         </View>
         <Text>Enter Puffs:</Text>
         <TextInput keyboardType='number-pad'></TextInput>
-        <TouchableOpacity title="Update" style={{backgroundColor: "red", height: 40, width: 170, borderRadius: 20, position: "relative", top: 30, left: 55}}>
+        <TouchableOpacity title="Update" style={{backgroundColor: "red", height: 40, width: 170, borderRadius: 20, position: "relative", top: 70, left: 55}}>
           <Text style={{textAlign: "center", color: "white", fontSize: 29}}>Update</Text>
         </TouchableOpacity>
       </View>
-      )}
+      )} */}
 
       <View style={{position: "relative", top: "7%", left: "5%"}}>
         <View style={styles.vstack}>
@@ -145,7 +145,6 @@ const styles = StyleSheet.create({
   UpdateDivElement: {
     backgroundColor: "rgba(220, 220, 220, 1)",
     borderRadius: 20,
-    height: 200,
+    height: 240,
     width: 280
   }
-});

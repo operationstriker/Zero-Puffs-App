@@ -1,38 +1,3 @@
-// import { StatusBar } from 'expo-status-bar';
-// import { StyleSheet, Text, View, Button, TouchableOpacity, Image } from 'react-native';
-// import React, { useState } from "react";
-// //View Usage
-// // import ProgressCircle from "react-native-progress-circle"
-
-// export default function App() {
-
-//   const [Count, setCount] = useState(0)
-
-  
-
-//   return (
-//     <View style={styles.container}>
-
-    
-
-//     <Text>ff</Text>
-//     </View>
-//   );
-// }
-
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: '#ffffffff',
-//     alignItems: 'center',
-//     justifyContent: 'center',
-//   },
-//   ProgressCircle: {
-//     backgroundColor: '#fb6363ff',
-//   }
-
-// });
-
 
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, TouchableOpacity, Image } from 'react-native';
@@ -67,7 +32,7 @@ export default function App() {
 
         <AnimatedCircularProgress
         size={220}
-        width={18}
+        width={17}
         fill={fill}
         tintColor="#ff0000ff"
         backgroundColor="#bababaff"

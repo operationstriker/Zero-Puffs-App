@@ -44,7 +44,11 @@ export default function App() {
           rotation={-6}>
         {
           (fill) => (
-            <Text style={{fontSize: 40, textAlign: "center"}}> {value}</Text>
+            <View>
+             <Text style={{fontSize: 40, textAlign: "center"}}> {value}</Text>
+             <Text></Text>
+            </View>
+            
           )
         }
       </AnimatedCircularProgress>

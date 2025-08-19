@@ -57,7 +57,7 @@ export default function App() {
         </View>
         <Text>Enter Puff Amount</Text>
         <TextInput placeholder='HF'></TextInput>
-        <TouchableOpacity style={{backgroundColor: "red", height: 20, borderRadius: 8}}>Update</TouchableOpacity>
+        <TouchableOpacity title="Update" style={{backgroundColor: "red", height: 20, width: 150, borderRadius: 8}}>Update</TouchableOpacity>
       </View>
       )}
       {/* <View style={styles.UpdateDivElement}> 

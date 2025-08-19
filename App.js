@@ -47,8 +47,9 @@ export default function App() {
           )
         }
       </AnimatedCircularProgress>
-
-      <View style={styles.UpdateDivElement}> 
+ 
+      {isVisible && (
+<View style={styles.UpdateDivElement}> 
         <Text style={{fontWeight: "bold"}}>Update Puffs</Text>
         <View style={{flexDirection: "row"}}>
         <Button title='Add'></Button>
@@ -58,6 +59,17 @@ export default function App() {
         <TextInput placeholder='HF'></TextInput>
         <Button title='Update'></Button>
       </View>
+      )}
+      {/* <View style={styles.UpdateDivElement}> 
+        <Text style={{fontWeight: "bold"}}>Update Puffs</Text>
+        <View style={{flexDirection: "row"}}>
+        <Button title='Add'></Button>
+        <Button title='Overwrite'></Button>
+        </View>
+        <Text>Enter Puff Amount</Text>
+        <TextInput placeholder='HF'></TextInput>
+        <Button title='Update'></Button>
+      </View> */}
 
 
 
@@ -128,9 +140,6 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     boxshadow: "0 0 0 5px rgba(255, 10, 10, 1);"
-  },
-  UpdateDivElement: {
-    display: "none"
   },
   vstack: {
     flexDirection: "column"

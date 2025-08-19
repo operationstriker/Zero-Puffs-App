@@ -12,10 +12,23 @@ export default function App() {
       const fill = (value / maxValue) * 100;
 
   // pop up when there close to their max
-
+// overwrite overwrites the amount of puffs you have
+// add adds more puffs
   function pufffunc() {
     setValue(value + 1)
   }
+
+  const [isVisible, setVisibility] = useState(false);
+
+  const toggleVisibility = () => {
+    setVisibility(!isVisible)
+  }
+
+  // const UpdateDiv = UpdateDivElement
+
+  // function OpenDiv() {
+  //    UpdateDiv.display = "block"
+  // }
 
   return (
     <View style={styles.container}>
@@ -35,7 +48,7 @@ export default function App() {
         }
       </AnimatedCircularProgress>
 
-      <View>
+      <View style={styles.UpdateDivElement}> 
         <Text style={{fontWeight: "bold"}}>Update Puffs</Text>
         <View style={{flexDirection: "row"}}>
         <Button title='Add'></Button>
@@ -72,7 +85,7 @@ export default function App() {
         </View>
       </View>
 
-        <TouchableOpacity style={styles.PuffButton2}>
+        <TouchableOpacity style={styles.PuffButton2} onPress={toggleVisibility}>
         <Text style={{textAlign: "center", color: "red", fontSize: "28", fontWeight: "semibold"}}>UPDATE  PUFFS</Text>
       </TouchableOpacity>
 
@@ -122,7 +135,9 @@ const styles = StyleSheet.create({
     alignItems: "center",
     boxshadow: "0 0 0 5px rgba(255, 10, 10, 1);"
   },
-
+  UpdateDivElement: {
+    display: "none"
+  },
   vstack: {
     flexDirection: "column"
   },

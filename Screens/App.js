@@ -33,7 +33,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-       <Text style={{fontSize: 35, fontFamily: "Arial", bottom: "4%", color: "gray"}}>Zero Puffs</Text>
+       <Text style={{fontSize: 35, fontFamily: "Arial", bottom: "4%", color: "black"}}>ZERO PUFFS</Text>
 
         <AnimatedCircularProgress
         size={220}
@@ -148,3 +148,4 @@ const styles = StyleSheet.create({
     height: 240,
     width: 280
   }
+});

@@ -51,7 +51,7 @@ export default function App() {
  
       {isVisible && (
         <View style={styles.UpdateDivElement}> 
-        <Text style={{fontWeight: "bold", textAlign: "center"}}>Update Puffs</Text>
+        <Text style={{fontWeight: 500, textAlign: "center", fontSize: 25}}>Update Puffs</Text>
         <TouchableOpacity onPress={CloseDiv}>
           <Text>X</Text>
         </TouchableOpacity>
@@ -61,7 +61,7 @@ export default function App() {
         </View>
         <Text>Enter Puffs:</Text>
         <TextInput keyboardType='number-pad'></TextInput>
-        <TouchableOpacity title="Update" style={{backgroundColor: "red", height: 30, width: 130, borderRadius: 14, position: "relative", top: 30}}>
+        <TouchableOpacity title="Update" style={{backgroundColor: "red", height: 30, width: 130, borderRadius: 14, position: "relative", top: 30, left: 35}}>
           <Text style={{textAlign: "center", color: "white", fontSize: 20}}>Update</Text>
         </TouchableOpacity>
       </View>
@@ -145,7 +145,7 @@ const styles = StyleSheet.create({
   UpdateDivElement: {
     backgroundColor: "rgba(220, 220, 220, 1)",
     borderRadius: 20,
-    height: 180,
-    width: 200
+    height: 200,
+    width: 280
   }
 });

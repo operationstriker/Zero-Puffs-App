@@ -62,18 +62,6 @@ export default function App() {
         </TouchableOpacity>
       </View>
       )}
-      {/* <View style={styles.UpdateDivElement}> 
-        <Text style={{fontWeight: "bold"}}>Update Puffs</Text>
-        <View style={{flexDirection: "row"}}>
-        <Button title='Add'></Button>
-        <Button title='Overwrite'></Button>
-        </View>
-        <Text>Enter Puff Amount</Text>
-        <TextInput placeholder='HF'></TextInput>
-        <Button title='Update'></Button>
-      </View> */}
-
-
 
       <View style={{position: "relative", top: "7%", left: "5%"}}>
         <View style={styles.vstack}>

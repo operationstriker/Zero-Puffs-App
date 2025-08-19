@@ -11,6 +11,8 @@ export default function App() {
   
       const fill = (value / maxValue) * 100;
 
+      // warning each quarter
+
   // pop up when there close to their max
 // overwrite overwrites the amount of puffs you have
 // add adds more puffs
@@ -143,6 +145,7 @@ const styles = StyleSheet.create({
   UpdateDivElement: {
     backgroundColor: "gray",
     borderRadius: 10,
+    height: 230,
     width: 200
   }
 });

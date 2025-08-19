@@ -57,7 +57,7 @@ export default function App() {
         </View>
         <Text>Enter Puff Amount</Text>
         <TextInput placeholder='HF'></TextInput>
-        <Button title='Update'></Button>
+        <TouchableOpacity style={{backgroundColor: "red", height: 20, borderRadius: 8}}>Update</TouchableOpacity>
       </View>
       )}
       {/* <View style={styles.UpdateDivElement}> 
@@ -146,5 +146,10 @@ const styles = StyleSheet.create({
   },
   hstack: {
     flexDirection: "row"
+  },
+  UpdateDivElement: {
+    backgroundColor: "gray",
+    borderRadius: 10,
+    width: 200
   }
 });

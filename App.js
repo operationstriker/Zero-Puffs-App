@@ -30,7 +30,7 @@ export default function App() {
           rotation={-6}>
         {
           (fill) => (
-            <Text style={{fontSize: 40}}> {value}</Text>
+            <Text style={{fontSize: 40, textAlign: "center"}}> {value}</Text>
           )
         }
       </AnimatedCircularProgress>

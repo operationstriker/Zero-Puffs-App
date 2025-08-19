@@ -61,7 +61,7 @@ export default function App() {
         </View>
         <Text>Enter Puffs:</Text>
         <TextInput keyboardType='number-pad'></TextInput>
-        <TouchableOpacity title="Update" style={{backgroundColor: "red", height: 30, width: 130, borderRadius: 14, position: "relative",}}>
+        <TouchableOpacity title="Update" style={{backgroundColor: "red", height: 30, width: 130, borderRadius: 14, position: "relative", top: 30}}>
           <Text style={{textAlign: "center", color: "white", fontSize: 20}}>Update</Text>
         </TouchableOpacity>
       </View>

@@ -37,7 +37,7 @@ export default function App() {
 
         <AnimatedCircularProgress
         size={220}
-        width={15}
+        width={18}
         fill={fill}
         tintColor="#ff0000ff"
         backgroundColor="#bababaff"

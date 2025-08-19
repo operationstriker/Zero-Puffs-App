@@ -24,6 +24,10 @@ export default function App() {
     setVisibility(!isVisible);
   }
 
+  const CloseDiv = () => {
+    setVisibility(false)
+  }
+
   // const UpdateDiv = UpdateDivElement
 
   // function OpenDiv() {
@@ -51,7 +55,7 @@ export default function App() {
       {isVisible && (
 <View style={styles.UpdateDivElement}> 
         <Text style={{fontWeight: "bold", textAlign: "center"}}>Update Puffs</Text>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={CloseDiv}>
           <Text>Close</Text>
         </TouchableOpacity>
         <View style={{flexDirection: "row"}}>

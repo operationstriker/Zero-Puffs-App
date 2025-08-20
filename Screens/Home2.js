@@ -70,7 +70,7 @@ export default function App() {
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.PuffButton} onPress={(() => setValue(value + 1))}>
-        <Text style={{textAlign: "center", color: "white", fontSize: "28", fontWeight: "semibold"}} onPress={pufffunc}>PUFF</Text>
+        <Text style={{textAlign: "center", color: "white", fontSize: "30", fontWeight: "semibold"}} onPress={pufffunc}>PUFF</Text>
       </TouchableOpacity>
       <StatusBar style="auto" />
     </View>

@@ -8,7 +8,7 @@ import { TextInput } from 'react-native';
 export default function App() {
 
     const [value, setValue] = useState(0) // create a variable
-    const maxValue = 20;
+    const maxValue = 27;
     const fill = (value / maxValue) * 100;
 
   function pufffunc() {
@@ -28,7 +28,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-       <Text style={{fontSize: 30, fontFamily: "Calbri", bottom: "4%", color: "#1E1E1E"}}>ZERO PUFFS </Text>
+       <Text style={{fontSize: 30, fontFamily: "Calbri", bottom: "13%", color: "#1E1E1E", textAlign: "center"}}>ZERO PUFFS </Text>
 
         <AnimatedCircularProgress
         size={220}
@@ -36,19 +36,18 @@ export default function App() {
         fill={fill}
         tintColor="#ff0000ff"
         backgroundColor="#bababaff"
-          rotation={-6}>
+        rotation={-0} style={{position: "relative", bottom: 60}}>
         {
           (fill) => (
             <View>
              <Text style={{fontSize: 40, textAlign: "center"}}> {value}</Text>
-             <Text style={{fontSize: 20}}>out of 25</Text>
+             <Text style={{fontSize: 20}}>out of { maxValue }</Text>
             </View>
-            
           )
         }
       </AnimatedCircularProgress>
 
-      <View style={{position: "relative", top: "7%", left: "5%"}}>
+      <View style={{position: "relative", top: "0%", left: "5%"}}>
         <View style={styles.vstack}>
         <Text style={{marginBottom: 20}}>20 </Text>
         <Text style={{marginBottom: 20}}>15 </Text>
@@ -67,15 +66,13 @@ export default function App() {
       </View>
 
         <TouchableOpacity style={styles.PuffButton2} onPress={toggleVisibility}>
-        <Text style={{textAlign: "center", color: "red", fontSize: "28", fontWeight: "semibold"}}>UPDATE  PUFFS</Text>
+        <Text style={{textAlign: "center", color: "red", fontSize: "30", fontWeight: 400}}>UPDATE  PUFFS</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.PuffButton} onPress={(() => setValue(value + 1))}>
         <Text style={{textAlign: "center", color: "white", fontSize: "28", fontWeight: "semibold"}} onPress={pufffunc}>PUFF</Text>
       </TouchableOpacity>
       <StatusBar style="auto" />
-
-
     </View>
   );
 }
@@ -89,8 +86,8 @@ const styles = StyleSheet.create({
   },
   PuffButton: {
     position: "relative",
-    top: "16%",
-    height: 55,
+    top: "10%",
+    height: 57,
     width: "85%",
     borderRadius: 27,
     backgroundColor: "#FF0000",
@@ -100,8 +97,8 @@ const styles = StyleSheet.create({
   },
   PuffButton2: {
         position: "relative",
-    top: "15%",
-    height: 55,
+    top: "9%",
+    height: 57,
     width: "85%",
     borderWidth: 2,
     borderColor: "red",
@@ -110,7 +107,6 @@ const styles = StyleSheet.create({
     cursor: "pointer",
     justifyContent: "center",
     alignItems: "center",
-    boxshadow: "0 0 0 5px rgba(255, 10, 10, 1);"
   },
   vstack: {
     flexDirection: "column"

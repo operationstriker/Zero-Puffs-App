@@ -36,7 +36,7 @@ export default function App() {
         fill={fill}
         tintColor="#ff0000ff"
         backgroundColor="#bababaff"
-        rotation={-0}>
+        rotation={-0} style={{position: "relative", bottom: 60}}>
         {
           (fill) => (
             <View>

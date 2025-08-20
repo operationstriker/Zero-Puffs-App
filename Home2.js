@@ -48,7 +48,7 @@ export default function App() {
         }
       </AnimatedCircularProgress>
 
-      <View style={{position: "relative", top: "7%", left: "5%"}}>
+      <View style={{position: "relative", top: "0%", left: "5%"}}>
         <View style={styles.vstack}>
         <Text style={{marginBottom: 20}}>20 </Text>
         <Text style={{marginBottom: 20}}>15 </Text>
@@ -89,8 +89,8 @@ const styles = StyleSheet.create({
   },
   PuffButton: {
     position: "relative",
-    top: "16%",
-    height: 55,
+    top: "10%",
+    height: 57,
     width: "85%",
     borderRadius: 27,
     backgroundColor: "#FF0000",
@@ -100,8 +100,8 @@ const styles = StyleSheet.create({
   },
   PuffButton2: {
         position: "relative",
-    top: "15%",
-    height: 55,
+    top: "9%",
+    height: 57,
     width: "85%",
     borderWidth: 2,
     borderColor: "red",

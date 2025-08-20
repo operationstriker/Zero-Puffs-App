@@ -36,7 +36,7 @@ export default function App() {
         fill={fill}
         tintColor="#ff0000ff"
         backgroundColor="#bababaff"
-          rotation={-0}>
+        rotation={-0}>
         {
           (fill) => (
             <View>
@@ -67,7 +67,7 @@ export default function App() {
       </View>
 
         <TouchableOpacity style={styles.PuffButton2} onPress={toggleVisibility}>
-        <Text style={{textAlign: "center", color: "red", fontSize: "28", fontWeight: "semibold"}}>UPDATE  PUFFS</Text>
+        <Text style={{textAlign: "center", color: "red", fontSize: "30", fontWeight: 400}}>UPDATE  PUFFS</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.PuffButton} onPress={(() => setValue(value + 1))}>
@@ -110,7 +110,6 @@ const styles = StyleSheet.create({
     cursor: "pointer",
     justifyContent: "center",
     alignItems: "center",
-    boxshadow: "0 0 0 5px rgba(255, 10, 10, 1);"
   },
   vstack: {
     flexDirection: "column"

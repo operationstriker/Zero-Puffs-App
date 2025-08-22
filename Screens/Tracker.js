@@ -38,6 +38,7 @@ export default function App() {
         </TouchableOpacity>
         </View>
 
+       <View>
        <View style={{top: 160, right: 90}}>
        <Text style={{fontSize: 30}}>Daily Total</Text>
        <Text style={{textAlign: "center", fontSize: 20}}>0</Text>
@@ -49,7 +50,7 @@ export default function App() {
        </View>
        
        
-       <View style={{top: 150, right: 86}}>
+       <View style={{top: 120, right: 86}}>
         <Text style={{textAlign: "center", fontSize: 30}}>Total Puffs</Text>
         <Text style={{textAlign: "center", fontSize: 20}}>0</Text>
        </View>
@@ -58,6 +59,7 @@ export default function App() {
        <Text style={{textAlign: "center", fontSize: 30}}>Nicotine Intake</Text>
        <Text style={{textAlign: "center", fontSize: 20}}>0</Text>
        </View>
+      </View>
        
 
     </View>

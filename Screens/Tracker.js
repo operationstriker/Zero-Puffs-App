@@ -49,7 +49,7 @@ export default function App() {
        </View>
        
        
-       <View style={{top: 120, right: 67}}>
+       <View style={{top: 120, right: 86}}>
         <Text style={{textAlign: "center", fontSize: 30}}>Total Puffs</Text>
         <Text style={{textAlign: "center"}}>0</Text>
        </View>

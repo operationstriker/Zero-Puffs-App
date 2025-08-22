@@ -44,8 +44,12 @@ export default function App() {
        </View>
        
        <Text>Daily Average</Text>
-  
+       
+       <View>
         <Text>Lifetime Puffs</Text>
+        <Text>0</Text>
+       </View>
+
        <Text>Nicotine Intake</Text>
 
     </View>

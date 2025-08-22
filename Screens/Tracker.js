@@ -39,6 +39,23 @@ export default function App() {
         </View>
 
        <View style={{top: 160, right: 90}}>
+        <Pressable>
+              <Pressable
+      style={({ pressed }) => [
+        {
+          backgroundColor: pressed ? 'lightblue' : 'white', // Change color based on 'pressed' state
+        },
+        styles.button, // Apply your base styles
+      ]}
+      onPress={() => console.log('Button pressed!')}
+    >
+      {({ pressed }) => (
+        <Text style={styles.text}>
+          {pressed ? 'Pressed!' : 'Press Me'}
+        </Text>
+      )}
+    </Pressable>
+        </Pressable>
        <Text style={{fontSize: 30}}>Daily Total</Text>
        <Text style={{textAlign: "center"}}>0</Text>
        </View>
@@ -79,6 +96,13 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     width: 130,
     marginRight: 20
-  }
+  },
+    button: {
+    padding: 15,
+    borderRadius: 8,
+    alignItems: 'center',
+    justifyContent: 'center',
+    margin: 10,
+  },
 
 });

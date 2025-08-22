@@ -40,7 +40,7 @@ export default function App() {
 
        <View style={{top: 160, right: 90}}>
        <Text style={{fontSize: 30}}>Daily Total</Text>
-       <Text style={{textAlign: "center"}}>0</Text>
+       <Text style={{textAlign: "center", fontSize: 20}}>0</Text>
        </View>
        
        <View style={{top: 107, left: 90}}>

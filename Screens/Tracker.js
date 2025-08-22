@@ -11,11 +11,15 @@ export default function App() {
   const [value, setValue] = useState(1) // create a variable
   const maxValue = 20;
 
-    const fill = (value / maxValue) * 100;
+  const fill = (value / maxValue) * 100;
 
 
   return (
     <View style={styles.container}>
+      <Text style={{fontSize: 30, fontFamily: "Calbri", bottom: "31%", color: "#1E1E1E", textAlign: "center", margin: 0}}>ZERO PUFFS</Text>
+      <Text style={{fontSize: 20, bottom: "31%"}}>PUFF Tracker</Text>
+
+
         <View style={styles.Header}>
             <TouchableOpacity style={styles.PuffButton2}>
             <Text style={{textAlign: "center", fontSize: "20", fontWeight: "semibold", marginRight: 20}}>Yesterday</Text>
@@ -34,10 +38,11 @@ export default function App() {
         </TouchableOpacity>
         </View>
 
-
-       <Text>Zero Puffs</Text>
-
+       <View>
        <Text>Daily Total</Text>
+       <Text style={{textAlign: "center"}}>0</Text>
+       </View>
+       
        <Text>Daily Average</Text>
   
         <Text>Lifetime Puffs</Text>
@@ -58,6 +63,7 @@ const styles = StyleSheet.create({
     position: "relative",
     right: 85,
     height: 50,
+    bottom: 230,
     flexDirection: "row",
     width: 130,
     marginRight: 20

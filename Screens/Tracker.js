@@ -55,7 +55,7 @@ export default function App() {
        </View>
 
        <View>
-       <Text style={{textAlign: "center"}}>Nicotine Intake</Text>
+       <Text style={{textAlign: "center", fontSize: 30}}>Nicotine Intake</Text>
        </View>
        
 

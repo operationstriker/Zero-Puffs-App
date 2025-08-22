@@ -46,7 +46,7 @@ export default function App() {
        <Text>Daily Average</Text>
        
        <View>
-        <Text>Lifetime Puffs</Text>
+        <Text style={{textAlign: "center"}}>Lifetime Puffs</Text>
         <Text>0</Text>
        </View>
 

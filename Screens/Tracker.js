@@ -38,7 +38,7 @@ export default function App() {
         </TouchableOpacity>
         </View>
 
-       <View style={{top: 160}}>
+       <View style={{top: 160, right: 90}}>
        <Text>Daily Total</Text>
        <Text style={{textAlign: "center"}}>0</Text>
        </View>

@@ -43,7 +43,7 @@ export default function App() {
               <Pressable
       style={({ pressed }) => [
         {
-          backgroundColor: pressed ? 'lightblue' : 'white', // Change color based on 'pressed' state
+          color: pressed ? 'lightblue' : 'white', // Change color based on 'pressed' state
         },
         styles.button, // Apply your base styles
       ]}
@@ -96,13 +96,6 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     width: 130,
     marginRight: 20
-  },
-    button: {
-    padding: 15,
-    borderRadius: 8,
-    alignItems: 'center',
-    justifyContent: 'center',
-    margin: 10,
   },
 
 });

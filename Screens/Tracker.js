@@ -44,7 +44,7 @@ export default function App() {
        </View>
        
        <View style={{top: 125, left: 50}}>
-      <Text style={{textAlign: "center"}}>Daily Average</Text>
+      <Text style={{textAlign: "center", fontSize: 30}}>Daily Average</Text>
       <Text style={{textAlign: "center"}}>1</Text>
        </View>
        

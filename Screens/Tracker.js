@@ -17,7 +17,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text style={{fontSize: 30, fontFamily: "Calbri", bottom: "25%", color: "#1E1E1E", textAlign: "center", margin: 0}}>ZERO PUFFS</Text>
-      <Text style={{fontSize: 20, bottom: "31%"}}>PUFF Tracker</Text>
+      <Text style={{fontSize: 20, bottom: "25%"}}>PUFF Tracker</Text>
 
 
         <View style={styles.Header}>

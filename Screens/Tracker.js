@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, Button, TouchableOpacity, Image } from 'react-native';
+import { StyleSheet, Text, View, Button, TouchableOpacity, Image, Pressable } from 'react-native';
 import React, { useState } from "react"
 import { Tabs } from "expo-router"
 // Vape Usage

@@ -49,7 +49,7 @@ export default function App() {
        </View>
        
        
-       <View>
+       <View style={{top: 120}}>
         <Text style={{textAlign: "center", fontSize: 30}}>Lifetime Puffs</Text>
         <Text style={{textAlign: "center"}}>0</Text>
        </View>

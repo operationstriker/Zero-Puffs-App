@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
     position: "relative",
     right: 85,
     height: 50,
-    bottom: 190,
+    bottom: 170,
     flexDirection: "row",
     width: 130,
     marginRight: 20

@@ -19,6 +19,10 @@ export default function App() {
 
     <View>
         <Text>Countdown Timer</Text>
+
+        <View>
+          
+        </View>
     </View>
 
 

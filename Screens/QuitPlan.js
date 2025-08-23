@@ -21,7 +21,7 @@ export default function App() {
         <Text>Countdown Timer</Text>
 
         <View>
-          
+          <Text>29</Text>
         </View>
     </View>
 

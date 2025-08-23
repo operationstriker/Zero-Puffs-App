@@ -13,6 +13,10 @@ export default function App() {
     <View style={styles.container}>
      <Text style={{fontWeight: "bold", fontSize: 30, textAlign: "center", position: "relative", bottom: "40%"}}>Quit Plan</Text>
 
+     <View>
+      <Text>Limit</Text>
+     </View>
+
     <View>
         <Text>Countdown Timer</Text>
     </View>

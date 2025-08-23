@@ -25,7 +25,7 @@ export default function App() {
           <Text>days</Text>
         </View>
 
-                <View>
+        <View>
           <Text>29</Text>
           <Text>days</Text>
         </View>

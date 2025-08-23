@@ -17,7 +17,7 @@ export default function App() {
       <Text>Limit</Text>
      </View>
 
-    <View style={{}}>
+    <View style={{backgroundColor: "gray", borderRadius: "8px"}}>
         <Text>Countdown Timer</Text>
 
         <View>

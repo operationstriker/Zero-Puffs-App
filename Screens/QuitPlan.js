@@ -29,6 +29,11 @@ export default function App() {
           <Text>29</Text>
           <Text>days</Text>
         </View>
+
+        <View>
+          <Text>29</Text>
+          <Text>days</Text>
+        </View>
     </View>
 
 

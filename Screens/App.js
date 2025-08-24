@@ -5,6 +5,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Home from "./Home"
 import Quit from "./QuitPlan"
 import Tracker from "./Tracker"
+import { Ionicons } from '@expo/vector-icons';
 
 function HomeScreen() {
    return (

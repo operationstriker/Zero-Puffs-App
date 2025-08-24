@@ -6,9 +6,9 @@ export default function App() {
 
 
   return (
-    <View style={styles.container}>
-     <Text>t</Text>
-    </View>
+   <React.Fragment>
+    
+   </React.Fragment>
   );
 }
 

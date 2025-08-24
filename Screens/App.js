@@ -9,7 +9,9 @@ export default function App() {
 
   return (
     <NavigationContainer>
-      
+      <Tab.Navigator>
+        
+      </Tab.Navigator>
     </NavigationContainer>
   );
 }

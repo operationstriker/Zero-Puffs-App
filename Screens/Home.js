@@ -3,6 +3,7 @@ import React, { useState } from "react"
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Home from "./Home"
+import Quit from "./QuitPlan"
 
 function HomeScreen() {
    return (
@@ -12,7 +13,7 @@ function HomeScreen() {
 
 function QuitScreen() {
    return (
-    <Home />
+    <Quit />
    )
 }
 
@@ -29,5 +30,4 @@ export default function App() {
     </NavigationContainer>
   );
 }
-
 

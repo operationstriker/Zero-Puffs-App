@@ -43,13 +43,9 @@ export default function App() {
       }}>
       <Tab.Screen name="Quit" component={QuitScreen} options={{headerShown: false}}/>
       <Tab.Screen name="Puff" component={HomeScreen} options={{headerShown: false, tabBarIcon: () => (
-        // <Ionicons
-        // size={24}
-        // name="pluscircle"
-        // />
          <FontAwesome
               size={ 26} // Example: larger when focused
-              name="home"
+              name="plus"
               color={"gray"}
             />
       )}}

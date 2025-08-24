@@ -1,13 +1,13 @@
 import { StyleSheet, Text, View, Button, TouchableOpacity, Image, Label } from 'react-native';
 import React, { useState } from "react"
-import { Link } from "expo-router"
+import { StatusBar } from 'expo-status-bar';
 
 export default function App() {
 
 
   return (
     <View style={styles.container}>
-     
+     <Text>t</Text>
     </View>
   );
 }

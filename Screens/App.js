@@ -51,7 +51,13 @@ export default function App() {
       )}}
       />
 
-      <Tab.Screen name="Tracker" component={TrackerScreen} options={{headerShown: false}}/>
+      <Tab.Screen name="Tracker" component={TrackerScreen} options={{headerShown: false, tabBarIcon: () => (
+               <FontAwesome
+              size={ 26} // Example: larger when focused
+              name="plus"
+              color={"gray"}
+            />
+      )}}/>
 
       </Tab.Navigator>
     </NavigationContainer>

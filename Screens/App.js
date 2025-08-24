@@ -8,6 +8,9 @@ export default function App() {
   return (
    <React.Fragment>
     <StatusBar style='auto'/>
+    <Tabs>
+
+    </Tabs>
    </React.Fragment>
   );
 }

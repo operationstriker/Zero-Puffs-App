@@ -32,7 +32,11 @@ export default function App() {
     <NavigationContainer>
       <Tab.Navigator screenOptions={{
         tabBarLabelStyle: {
-          fontSize: 16
+          // borderTopWidth: 0,
+          fontSize: 20,
+          borderTopWidth: 0,
+          elevation: 0, 
+      
         }
       }}>
       <Tab.Screen name="Quit" component={QuitScreen} options={{headerShown: false}}/>

@@ -1,11 +1,23 @@
-
-import React from "react"
-import { Tabs } from "expo-router"
+import { StyleSheet, Text, View, Button, TouchableOpacity, Image, Label } from 'react-native';
+import React, { useState } from "react"
+import { Link } from "expo-router"
+import { NavigationContainer } from '@react-navigation/native';
 
 export default function App() {
-  return (
-    <Tabs>
 
-    </Tabs>
+
+  return (
+    <View style={styles.container}>
+
+    </View>
   );
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#ffffffff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  }
+});

@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View, Button, TouchableOpacity, Image, Label } from 'react-native';
-import React, { useState } from "react"
+import React from "react"
 import { StatusBar } from 'expo-status-bar';
+import { Tabs } from "expo-router"
 
 export default function App() {
 
@@ -9,7 +10,7 @@ export default function App() {
    <React.Fragment>
     <StatusBar style='auto'/>
     <Tabs>
-
+     <Tabs.Screen name='index' />
     </Tabs>
    </React.Fragment>
   );

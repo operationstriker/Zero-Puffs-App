@@ -47,6 +47,7 @@ export default function App() {
             <View>
              <Text style={{fontSize: 40, textAlign: "center"}}> {value}</Text>
              <Text style={{fontSize: 20}} id='MaxText'>out of { maxValue }</Text>
+             <FontAwesomeIcon icon={byPrefixAndName.fas['pen']} />
             </View>
           )
         }
@@ -126,4 +127,3 @@ const styles = StyleSheet.create({
     width: 280
   }
 });
-

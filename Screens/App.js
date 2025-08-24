@@ -2,6 +2,7 @@ import { StyleSheet, Text, View, Button, TouchableOpacity, Image, Label } from '
 import React, { useState } from "react"
 import { Link } from "expo-router"
 import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 export default function App() {
 

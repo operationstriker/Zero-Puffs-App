@@ -33,10 +33,8 @@ export default function App() {
       <Tab.Navigator>
       <Tab.Screen name="Quit" component={QuitScreen}/>
       <Tab.Screen name="Puff" component={HomeScreen}/>
-      <Tab.Screen name="Tracker" component={HomeScreen}/>
+      <Tab.Screen name="Tracker" component={TrackerScreen}/>
       </Tab.Navigator>
     </NavigationContainer>
   );
 }
-
-

@@ -46,7 +46,7 @@ export default function App() {
          <FontAwesome
               size={ 26} // Example: larger when focused
               name="plus"
-              color={"gray"}
+              color={"black"}
             />
       )}}
       />

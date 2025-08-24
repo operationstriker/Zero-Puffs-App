@@ -13,8 +13,8 @@ export default function App() {
   return (
     <NavigationContainer>
       <Tab.Navigator>
+      <Tab.Screen name="Quit" component={HomeScreen}/>
       <Tab.Screen name="Puff" component={HomeScreen}/>
-      <Tab.Screen name="f" component={HomeScreen}/>
       <Tab.Screen name="Pu3ff" component={HomeScreen}/>
       </Tab.Navigator>
     </NavigationContainer>

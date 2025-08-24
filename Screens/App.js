@@ -4,6 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Home from "./Home"
 import Quit from "./QuitPlan"
+import Tracker from "./Tracker"
 
 function HomeScreen() {
    return (
@@ -16,6 +17,13 @@ function QuitScreen() {
     <Quit />
    )
 }
+
+function TrackerScreen() {
+   return (
+    <Quit />
+   )
+}
+
 
 const Tab = createBottomTabNavigator()
 

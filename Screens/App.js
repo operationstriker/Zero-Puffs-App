@@ -30,7 +30,11 @@ const Tab = createBottomTabNavigator()
 export default function App() {
   return (
     <NavigationContainer>
-      <Tab.Navigator>
+      <Tab.Navigator screenOptions={{
+        tabBarLabelStyle: {
+          fontSize: 16
+        }
+      }}>
       <Tab.Screen name="Quit" component={QuitScreen} options={{headerShown: false}}/>
       <Tab.Screen name="Puff" component={HomeScreen} options={{headerShown: false}}/>
       <Tab.Screen name="Tracker" component={TrackerScreen} options={{headerShown: false}}/>

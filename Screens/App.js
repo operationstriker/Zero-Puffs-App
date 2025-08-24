@@ -33,7 +33,7 @@ export default function App() {
       <Tab.Navigator>
       <Tab.Screen name="Quit" component={QuitScreen} options={{headerShown: false}}/>
       <Tab.Screen name="Puff" component={HomeScreen} options={{headerShown: false}}/>
-      <Tab.Screen name="Tracker" component={TrackerScreen}/>
+      <Tab.Screen name="Tracker" component={TrackerScreen} options={{headerShown: false}}/>
       </Tab.Navigator>
     </NavigationContainer>
   );

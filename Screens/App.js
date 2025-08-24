@@ -1,5 +1,5 @@
 
-import React, { useState } from "react"
+import React from "react"
 import { Tabs } from "expo-router"
 
 export default function App() {

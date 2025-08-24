@@ -10,6 +10,12 @@ function HomeScreen() {
    )
 }
 
+function QuitScreen() {
+   return (
+    <Home />
+   )
+}
+
 const Tab = createBottomTabNavigator()
 
 export default function App() {

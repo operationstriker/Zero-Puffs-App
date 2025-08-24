@@ -4,6 +4,7 @@ import { StyleSheet, Text, View, Button, TouchableOpacity, Image } from 'react-n
 import React, { useState } from "react"
 import { AnimatedCircularProgress } from 'react-native-circular-progress';
 import { TextInput } from 'react-native';
+import FontAwesome from '@expo/vector-icons/FontAwesome';
 
 export default function App() {
 

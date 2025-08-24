@@ -6,6 +6,7 @@ import Home from "./Home"
 import Quit from "./QuitPlan"
 import Tracker from "./Tracker"
 import { Ionicons } from '@expo/vector-icons';
+import FontAwesome from '@expo/vector-icons/FontAwesome';
 
 function HomeScreen() {
    return (
@@ -42,11 +43,20 @@ export default function App() {
       }}>
       <Tab.Screen name="Quit" component={QuitScreen} options={{headerShown: false}}/>
       <Tab.Screen name="Puff" component={HomeScreen} options={{headerShown: false, tabBarIcon: () => (
-        <Ionicons>
-          
-        </Ionicons>
-      )}}/>
+        // <Ionicons
+        // size={24}
+        // name="pluscircle"
+        // />
+         <FontAwesome
+              size={ 26} // Example: larger when focused
+              name="home"
+              color={"gray"}
+            />
+      )}}
+      />
+
       <Tab.Screen name="Tracker" component={TrackerScreen} options={{headerShown: false}}/>
+
       </Tab.Navigator>
     </NavigationContainer>
   );

@@ -20,7 +20,7 @@ function QuitScreen() {
 
 function TrackerScreen() {
    return (
-    <Quit />
+    <Tracker />
    )
 }
 

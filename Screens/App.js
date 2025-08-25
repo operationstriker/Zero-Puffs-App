@@ -42,13 +42,8 @@ export default function App() {
          borderRadius: 20,
          backgroundColor: "rgba(224, 224, 224, 1)"
         },
-        // tabBarLabelStyle: {
-        //   height: 20,
-        //   borderTopWidth: 0,
-        //   fontSize: 20,
-        // },
       }}>
-      <Tab.Screen name="2" component={QuitScreen} options={{headerShown: false, color: "black", tabBarIcon: () => (
+      <Tab.Screen name="" component={QuitScreen} options={{headerShown: false, color: "black", tabBarIcon: () => (
          <FontAwesome
               size={30} // Example: larger when focused
               name="close"
@@ -57,7 +52,7 @@ export default function App() {
             />
           )}}
           />
-      <Tab.Screen name="f" component={HomeScreen} options={{headerShown: false, tabBarIcon: () => (
+      <Tab.Screen name="" component={HomeScreen} options={{headerShown: false, tabBarIcon: () => (
          <FontAwesome
               size={30} // Example: larger when focused
               name="plus-circle"
@@ -66,7 +61,7 @@ export default function App() {
       )}}
       />
 
-      <Tab.Screen name="4" component={TrackerScreen} options={{headerShown: false, tabBarIcon: () => (
+      <Tab.Screen name="" component={TrackerScreen} options={{headerShown: false, tabBarIcon: () => (
                <FontAwesome
               size={30} 
               name="bar-chart"

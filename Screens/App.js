@@ -42,28 +42,33 @@ export default function App() {
          borderRadius: 20,
          backgroundColor: "rgba(224, 224, 224, 1)"
         },
+           tabBarIconStyle: {
+      marginTop: 5, // tweak to center
+      width: 50, // make room
+      height: 50,
+    }
       }}>
-      <Tab.Screen name="" component={QuitScreen} options={{headerShown: false, color: "black", tabBarIcon: () => (
+      <Tab.Screen name="-" component={QuitScreen} options={{headerShown: false, color: "black", tabBarIcon: () => (
          <FontAwesome
-              size={30} // Example: larger when focused
+              size={40} // Example: larger when focused
               name="close"
               color={"black"}
              
             />
           )}}
           />
-      <Tab.Screen name="" component={HomeScreen} options={{headerShown: false, tabBarIcon: () => (
+      <Tab.Screen name="[" component={HomeScreen} options={{headerShown: false, tabBarIcon: () => (
          <FontAwesome
-              size={30} // Example: larger when focused
+              size={40} // Example: larger when focused
               name="plus-circle"
               color={"black"}
             />
       )}}
       />
 
-      <Tab.Screen name="" component={TrackerScreen} options={{headerShown: false, tabBarIcon: () => (
+      <Tab.Screen name="'" component={TrackerScreen} options={{headerShown: false, tabBarIcon: () => (
                <FontAwesome
-              size={30} 
+              size={40} 
               name="bar-chart"
               color={"black"}
             />

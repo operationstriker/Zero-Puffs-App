@@ -33,11 +33,12 @@ export default function App() {
   return (
     <NavigationContainer>
       <Tab.Navigator screenOptions={{
+        tabBarStyle: {
+
+        },
         tabBarLabelStyle: {
-          // borderTopWidth: 0,
-          
+          borderTopWidth: 0,
           fontSize: 20,
-  
         },
       }}>
       <Tab.Screen name="Quit" component={QuitScreen} options={{headerShown: false, color: "black", tabBarIcon: () => (
@@ -45,6 +46,7 @@ export default function App() {
               size={30} // Example: larger when focused
               name="close"
               color={"black"}
+             
             />
           )}}
           />

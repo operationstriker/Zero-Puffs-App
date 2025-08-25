@@ -7,6 +7,7 @@ import Quit from "./QuitPlan"
 import Tracker from "./Tracker"
 import { Ionicons } from '@expo/vector-icons';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
+import { Feather } from 'react-native-vector-icons';
 
 function HomeScreen() {
    return (

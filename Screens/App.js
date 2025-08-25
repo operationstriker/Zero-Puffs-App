@@ -40,10 +40,10 @@ export default function App() {
          borderTopWidth: 0,
          height: 60,
          borderRadius: 20,
-         backgroundColor: "rgba(224, 224, 224, 1)"
+         backgroundColor: "rgba(243, 243, 243, 1)"
         },
            tabBarIconStyle: {
-      marginTop: 5, // tweak to center
+      marginTop: 0, // tweak to center
       width: 50, // make room
       height: 50,
     }
@@ -78,14 +78,3 @@ export default function App() {
     </NavigationContainer>
   );
 }
-
-
-      // <Tab.Screen name="Quit" component={QuitScreen} options={{headerShown: false, color: "black", tabBarIcon: () => (
-      //    <FontAwesome
-      //         size={30} // Example: larger when focused
-      //         name="close"
-      //         color={"black"}
-             
-      //       />
-      //     )}}
-      //     />

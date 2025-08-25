@@ -8,6 +8,8 @@ import Tracker from "./Tracker"
 import { Ionicons } from '@expo/vector-icons';
 import FontAwesome from '@expo/vector-icons/FontAwesome';
 import { Feather } from 'react-native-vector-icons';
+import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
+
 
 function HomeScreen() {
    return (
@@ -76,11 +78,13 @@ export default function App() {
       />
 
       <Tab.Screen name="'" component={TrackerScreen} options={{headerShown: false, tabBarIcon: () => (
-               <FontAwesome
-              size={40} 
-              name="bar-chart"
-              color={"black"}
-            />
+            //    <FontAwesome
+            //   size={40} 
+            //   name="bar-chart"
+            //   color={"black"}
+            // />
+
+            <MaterialIcons name="home" size={30} color="#900" />
       )}}/>
 
       </Tab.Navigator>

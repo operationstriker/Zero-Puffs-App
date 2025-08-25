@@ -48,7 +48,7 @@ export default function App() {
         },
            tabBarIconStyle: {
       marginTop: 0, // tweak to center
-      width: 50, // make room
+      width: 40, // make room
       height: 50,
     }
       }}>
@@ -58,7 +58,8 @@ export default function App() {
         //       name="close"
         //       color={"black"}
         //     />
-            <Ionicons size={40} name="exit" color={"black"}/>
+            // <Ionicons size={40} name="exit-outline" color={"black"}/>
+            <Feather name="plus-circle" size={40} color="#000" />
           )}}
           />
       <Tab.Screen name="[" component={HomeScreen} options={{headerShown: false, tabBarIcon: () => (

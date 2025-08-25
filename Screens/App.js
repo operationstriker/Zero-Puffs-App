@@ -69,9 +69,3 @@ export default function App() {
     </NavigationContainer>
   );
 }
-
-            //    <FontAwesome
-            //   size={40} 
-            //   name="bar-chart"
-            //   color={"black"}
-            // />

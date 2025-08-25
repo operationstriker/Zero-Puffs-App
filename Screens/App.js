@@ -37,10 +37,9 @@ export default function App() {
           position: 'relative',
           bottom: 30,
          borderTopWidth: 0,
-         height: 50,
-         width: 370,
-         borderRadius: 10,
-         backgroundColor: "gray"
+         height: 60,
+         borderRadius: 20,
+         backgroundColor: "rgba(224, 224, 224, 1)"
         },
         tabBarLabelStyle: {
           height: 20,

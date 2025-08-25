@@ -58,8 +58,6 @@ export default function App() {
               name="sign-out"
               color={"black"}
             />
-            // <Ionicons size={40} name="exit-outline" color={"black"}/>
-            // <Feather name="plus-circle" size={40} color="#000" />
           )}}
           />
       <Tab.Screen name="[" component={HomeScreen} options={{headerShown: false, tabBarIcon: () => (

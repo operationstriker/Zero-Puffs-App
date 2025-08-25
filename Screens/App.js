@@ -34,7 +34,7 @@ export default function App() {
     <NavigationContainer>
       <Tab.Navigator screenOptions={{
         tabBarStyle: {
-
+         borderTopWidth: 0
         },
         tabBarLabelStyle: {
           borderTopWidth: 0,

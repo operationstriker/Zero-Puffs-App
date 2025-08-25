@@ -43,7 +43,7 @@ export default function App() {
       }}>
       <Tab.Screen name="Quit" component={QuitScreen} options={{headerShown: false, color: "black", tabBarIcon: () => (
          <FontAwesome
-              size={25} // Example: larger when focused
+              size={30} // Example: larger when focused
               name="close"
               color={"black"}
             />
@@ -51,7 +51,7 @@ export default function App() {
           />
       <Tab.Screen name="Puff" component={HomeScreen} options={{headerShown: false, tabBarIcon: () => (
          <FontAwesome
-              size={25} // Example: larger when focused
+              size={30} // Example: larger when focused
               name="plus-circle"
               color={"black"}
             />
@@ -60,7 +60,7 @@ export default function App() {
 
       <Tab.Screen name="Tracker" component={TrackerScreen} options={{headerShown: false, tabBarIcon: () => (
                <FontAwesome
-              size={25} 
+              size={30} 
               name="bar-chart"
               color={"black"}
             />

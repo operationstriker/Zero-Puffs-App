@@ -71,7 +71,7 @@ export default function App() {
             //   color={"black"}
             // />
 
-                <Feather name="plus-circle" size={24} color="#000" />
+                <Feather name="plus-circle" size={40} color="#000" />
       )}}
       />
 

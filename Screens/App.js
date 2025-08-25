@@ -53,10 +53,7 @@ export default function App() {
     }
       }}>
       <Tab.Screen name="-" component={QuitScreen} options={{headerShown: false, color: "black", tabBarIcon: () => (
-         <FontAwesome
-              size={40} // Example: larger when focused
-              name="sign-out"
-              color={"black"}
+         <FontAwesome size={40} name="sign-out" color={"black"}
             />
           )}}
           />

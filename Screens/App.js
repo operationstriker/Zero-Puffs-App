@@ -53,13 +53,13 @@ export default function App() {
     }
       }}>
       <Tab.Screen name="-" component={QuitScreen} options={{headerShown: false, color: "black", tabBarIcon: () => (
-        //  <FontAwesome
-        //       size={40} // Example: larger when focused
-        //       name="close"
-        //       color={"black"}
-        //     />
+         <FontAwesome
+              size={40} // Example: larger when focused
+              name="sign-out"
+              color={"black"}
+            />
             // <Ionicons size={40} name="exit-outline" color={"black"}/>
-            <Feather name="plus-circle" size={40} color="#000" />
+            // <Feather name="plus-circle" size={40} color="#000" />
           )}}
           />
       <Tab.Screen name="[" component={HomeScreen} options={{headerShown: false, tabBarIcon: () => (

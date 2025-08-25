@@ -38,7 +38,7 @@ export default function App() {
           bottom: 30,
          borderTopWidth: 0,
          height: 50,
-         width: 350,
+         width: 370,
          borderRadius: 10,
          backgroundColor: "gray"
         },

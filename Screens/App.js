@@ -33,16 +33,12 @@ export default function App() {
   return (
     <NavigationContainer>
       <Tab.Navigator screenOptions={{
-        tabBarLabel: false,
         tabBarLabelStyle: {
           // borderTopWidth: 0,
           
           fontSize: 20,
-          borderTopWidth: 0,
-          elevation: 0, 
-
-      
-        }
+  
+        },
       }}>
       <Tab.Screen name="Quit" component={QuitScreen} options={{headerShown: false, color: "black", tabBarIcon: () => (
          <FontAwesome

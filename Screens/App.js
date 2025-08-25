@@ -57,12 +57,7 @@ export default function App() {
           )}}
           />
       <Tab.Screen name="[" component={HomeScreen} options={{headerShown: false, tabBarIcon: () => (
-        //  <FontAwesome
-        //       size={40} // Example: larger when focused
-        //       name="plus-circle"
-        //       color={"black"}
-        //     />
-                <Feather name="plus-circle" size={40} color="#000" />
+         <Feather name="plus-circle" size={40} color="#000" />
       )}}
       />
 

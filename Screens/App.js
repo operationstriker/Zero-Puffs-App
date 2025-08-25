@@ -53,8 +53,7 @@ export default function App() {
     }
       }}>
       <Tab.Screen name="-" component={QuitScreen} options={{headerShown: false, color: "black", tabBarIcon: () => (
-         <FontAwesome size={40} name="sign-out" color={"black"}
-            />
+         <FontAwesome size={40} name="sign-out" color={"black"}/>
           )}}
           />
       <Tab.Screen name="[" component={HomeScreen} options={{headerShown: false, tabBarIcon: () => (

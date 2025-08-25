@@ -11,6 +11,7 @@ import { Feather } from 'react-native-vector-icons';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 
 
+
 function HomeScreen() {
    return (
     <Home />
@@ -52,12 +53,12 @@ export default function App() {
     }
       }}>
       <Tab.Screen name="-" component={QuitScreen} options={{headerShown: false, color: "black", tabBarIcon: () => (
-         <FontAwesome
-              size={40} // Example: larger when focused
-              name="close"
-              color={"black"}
-             
-            />
+        //  <FontAwesome
+        //       size={40} // Example: larger when focused
+        //       name="close"
+        //       color={"black"}
+        //     />
+            <Ionicons size={40} name="exit" color={"black"}/>
           )}}
           />
       <Tab.Screen name="[" component={HomeScreen} options={{headerShown: false, tabBarIcon: () => (
@@ -66,28 +67,21 @@ export default function App() {
         //       name="plus-circle"
         //       color={"black"}
         //     />
-
-            //      <Feather
-            //   size={40} // Example: larger when focused
-            //   name="plus-circle"
-            //   color={"black"}
-            // />
-
                 <Feather name="plus-circle" size={40} color="#000" />
       )}}
       />
 
       <Tab.Screen name="'" component={TrackerScreen} options={{headerShown: false, tabBarIcon: () => (
-            //    <FontAwesome
-            //   size={40} 
-            //   name="bar-chart"
-            //   color={"black"}
-            // />
-
-            <MaterialIcons name="home" size={30} color="#900" />
+            <Feather name="bar-chart" size={40} color="#000" />
       )}}/>
 
       </Tab.Navigator>
     </NavigationContainer>
   );
 }
+
+            //    <FontAwesome
+            //   size={40} 
+            //   name="bar-chart"
+            //   color={"black"}
+            // />

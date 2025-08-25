@@ -71,16 +71,5 @@ export default function App() {
 
       </Tab.Navigator>
     </NavigationContainer>
-    // <NavigationContainer>
-    //   <Tab.Navigator screenOptions={({ route }) => {
-    //     let iconName;
-
-    //     if (route.name === "Home") {
-    //       iconName = focused ? 'home' : 'home-outline'
-    //     }else if (route.name === "Settings")
-    //   }}>
-
-    //   </Tab.Navigator>
-    // </NavigationContainer>
   );
 }

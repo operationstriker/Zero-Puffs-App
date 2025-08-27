@@ -56,7 +56,8 @@ export default function App() {
       <View>
         <Text>Update Puffs</Text>
 
-        <TextInput></TextInput>
+
+        <TouchableOpacity>Add</TouchableOpacity>
       </View>
 
       

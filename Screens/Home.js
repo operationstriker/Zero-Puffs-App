@@ -4,7 +4,6 @@ import { StyleSheet, Text, View, Button, TouchableOpacity, Image } from 'react-n
 import React, { useState } from "react"
 import { AnimatedCircularProgress } from 'react-native-circular-progress';
 import { TextInput } from 'react-native';
-import FontAwesome from '@expo/vector-icons/FontAwesome';
 
 export default function App() {
 
@@ -42,17 +41,22 @@ export default function App() {
         fill={fill}
         tintColor="#ff0000ff"
         backgroundColor="#bababaff"
-        rotation={-0} style={{position: "relative", bottom: 60}}>
+        rotation={-0} style={{position: "relative", bottom: 53}}>
         {
           (fill) => (
             <View>
              <Text style={{fontSize: 40, textAlign: "center"}}> {value}</Text>
              <Text style={{fontSize: 20}} id='MaxText'>out of { maxValue }</Text>
-             <FontAwesomeIcon icon={byPrefixAndName.fas['pen']} />
+          
             </View>
           )
         }
       </AnimatedCircularProgress>
+
+      <View>
+      </View>
+
+      
 
       <View style={{position: "relative", top: "0%", left: "5%"}}>
         <View style={styles.vstack}>

@@ -54,7 +54,9 @@ export default function App() {
       </AnimatedCircularProgress>
 
       <View>
-         <Text>Update Puffs</Text>
+        <Text>Update Puffs</Text>
+
+        <TextInput></TextInput>
       </View>
 
       
@@ -133,4 +135,3 @@ const styles = StyleSheet.create({
     width: 280
   }
 });
-

@@ -51,18 +51,20 @@ export default function App() {
         }
       </AnimatedCircularProgress>
 
-      <View style={{backgroundColor: "rgba(239, 239, 239, 1)", height: 200, width: 250, borderRadius: 20}}>
+      <View style={{backgroundColor: "rgba(239, 239, 239, 1)", height: 200, width: 250, borderRadius: 20,}}>
         <Text style={{textAlign: "center", fontSize: 20, fontWeight: "bold"}}>Update Puffs</Text>
-         <TouchableOpacity style={{backgroundColor: "gray", height: 30, width: 100, borderRadius: 5}}>
-          <Text>Add</Text>
+         <TouchableOpacity style={{backgroundColor: "gray", height: 30, width: 100, borderRadius: 5, left: 20}}>
+          <Text style={{color: "white", textAlign: "center"}}>Add</Text>
          </TouchableOpacity>
 
-          <TouchableOpacity style={{backgroundColor: "gray", height: 30, width: 100, borderRadius: 5}}>
-          <Text>Overwrite</Text>
+          <TouchableOpacity style={{backgroundColor: "gray", height: 30, width: 100, borderRadius: 5, bottom: 30, left: 125}}>
+          <Text style={{color: "white", textAlign: "center"}}>Overwrite</Text>
          </TouchableOpacity>
 
+         <TextInput style={{borderBottomWidth: 5, borderBottomColor: "black"}}>Enter Puff Amount</TextInput>
 
-         <TouchableOpacity style={{backgroundColor: "red", height: 30, borderRadius: 10, width: 200}}>
+
+         <TouchableOpacity style={{backgroundColor: "red", height: 30, borderRadius: 10, width: 150, position: "relative", top: 60, left: 50}}>
           <Text style={{color: "white", textAlign: "center", fontSize: 20, fontWeight: "bold"}}>Update</Text>
          </TouchableOpacity>
 

@@ -62,7 +62,7 @@ export default function App() {
          </TouchableOpacity>
 
 
-         <TouchableOpacity style={{backgroundColor: "red"}}>
+         <TouchableOpacity style={{backgroundColor: "red", height: 30, borderRadius: 10, width: 200}}>
           <Text style={{color: "white"}}>Update</Text>
          </TouchableOpacity>
 

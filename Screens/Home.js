@@ -52,7 +52,7 @@ export default function App() {
       </AnimatedCircularProgress>
 
       <View style={{backgroundColor: "rgba(239, 239, 239, 1)", height: 200, width: 250, borderRadius: 20}}>
-        <Text style={{textAlign: "center"}}>Update Puffs</Text>
+        <Text style={{textAlign: "center", fontSize: 20, fontWeight: "bold"}}>Update Puffs</Text>
          <TouchableOpacity>
           <Text>Add</Text>
          </TouchableOpacity>

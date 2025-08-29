@@ -51,9 +51,15 @@ export default function App() {
         }
       </AnimatedCircularProgress>
 
-      <View>
-        <Text>Update Puffs</Text>
+      <View style={{backgroundColor: "gray", height: 200, width: 250, borderRadius: 20}}>
+        <Text style={{textAlign: "center"}}>Update Puffs</Text>
+         <TouchableOpacity>
+          <Text>Add</Text>
+         </TouchableOpacity>
 
+          <TouchableOpacity>
+          <Text>Overwrite</Text>
+         </TouchableOpacity>
 
       </View>
 

@@ -53,11 +53,11 @@ export default function App() {
 
       <View style={{backgroundColor: "rgba(239, 239, 239, 1)", height: 200, width: 250, borderRadius: 20}}>
         <Text style={{textAlign: "center", fontSize: 20, fontWeight: "bold"}}>Update Puffs</Text>
-         <TouchableOpacity style={{backgroundColor: "gray", height: 30}}>
+         <TouchableOpacity style={{backgroundColor: "gray", height: 30, width: 100, borderRadius: 5}}>
           <Text>Add</Text>
          </TouchableOpacity>
 
-          <TouchableOpacity style={{backgroundColor: "gray", height: 30}}>
+          <TouchableOpacity style={{backgroundColor: "gray", height: 30, width: 100, borderRadius: 5}}>
           <Text>Overwrite</Text>
          </TouchableOpacity>
 

@@ -26,9 +26,7 @@ export default function App() {
     setVisibility(!isVisible);
   }
 
-  const CloseDiv = () => {
-    setVisibility(false)
-  }
+
   // if puffs is 0, tap to configure
 
   return (
@@ -57,7 +55,6 @@ export default function App() {
         <Text>Update Puffs</Text>
 
 
-        <TouchableOpacity>Add</TouchableOpacity>
       </View>
 
       

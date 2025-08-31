@@ -56,7 +56,7 @@ export default function App() {
         }
       </AnimatedCircularProgress>
 
-      <View style={{backgroundColor: "gray", height: 140, width: 200}}>
+      <View style={{backgroundColor: "gray", height: 140, width: 230, borderRadius: 20}}>
         <Text>Set Daily Limit</Text>
 
         <TouchableOpacity>

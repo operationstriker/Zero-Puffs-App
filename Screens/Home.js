@@ -56,10 +56,12 @@ export default function App() {
         }
       </AnimatedCircularProgress>
 
-      <View style={{backgroundColor: "gray", height: 140, width: 230, borderRadius: 20}}>
-        <Text style={{textAlign: "center"}}>Set Daily Limit</Text>
+      <View style={{backgroundColor: "rgba(217, 217, 217, 1)", height: 140, width: 230, borderRadius: 20}}>
+        <Text style={{textAlign: "center", fontSize: 20}}>Set Daily Limit</Text>
 
-        <TouchableOpacity style={{backgroundColor: "red", width: 160, height: 30, borderRadius: 20, top: 70, left: 30}}>
+        <TextInput style={{borderBottomWidth: 5, borderBottomColor: "red", top: 30}}></TextInput>
+
+        <TouchableOpacity style={{backgroundColor: "red", width: 160, height: 30, borderRadius: 20, top: 60, left: 35}}>
           <Text style={{textAlign: "center", color: "white", fontSize: 20}}>Confirm</Text>
         </TouchableOpacity>
       </View>

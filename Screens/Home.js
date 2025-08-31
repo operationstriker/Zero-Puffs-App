@@ -46,7 +46,7 @@ export default function App() {
             <View>
              <Text style={{fontSize: 40, textAlign: "center"}}> {value}</Text>
              <Text style={{fontSize: 20}} id='MaxText'>out of { maxValue }</Text>
-             <FontAwesome5 name="pen" size={24} color="black" style={{position: "relative", bottom: 20}}/>
+             <FontAwesome5 name="pen" size={24} color="black" style={{position: "relative", bottom: 24, left: 90}}/>
           
             </View>
           )

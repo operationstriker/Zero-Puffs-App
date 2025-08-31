@@ -8,7 +8,6 @@ import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
 
 export default function App() {
 
-
     const [value, setValue] = useState(0) // create a variable
     const maxValue = 30;
     const fill = (value / maxValue) * 100;
@@ -27,6 +26,12 @@ export default function App() {
     setVisibility(!isVisible);
   }
 
+    const [VisibleDaily, setVisibilityDaily] = useState(false);
+
+  const toggleVisibilityDaily = () => {
+    setVisibilityDaily(!VisibleDaily);
+  }
+  
 
   // if puffs is 0, tap to configure
 
@@ -47,7 +52,7 @@ export default function App() {
              <Text style={{fontSize: 40, textAlign: "center"}}> {value}</Text>
              <Text style={{fontSize: 20}} id='MaxText'>out of { maxValue }</Text>
              <TouchableOpacity>
-             <FontAwesome5 name="pen" size={20} color="black" style={{position: "relative", bottom: 24, left: 90}}/>  
+             <FontAwesome5 name="pen" size={20} color="black" style={{position: "relative", bottom: 24, left: 90}} onPress={toggleVisibilityDaily}/>  
              </TouchableOpacity>
              
           
@@ -78,18 +83,16 @@ export default function App() {
 
          <TextInput placeholder='Enter Puff Amount' style={{borderBottomWidth: 3, borderBottomColor: "red"}}></TextInput>
 
-
          <TouchableOpacity style={{backgroundColor: "red", height: 30, borderRadius: 10, width: 150, position: "relative", top: 60, left: 50}}>
           <Text style={{color: "white", textAlign: "center", fontSize: 20, fontWeight: "bold"}}>Update</Text>
          </TouchableOpacity>
-
       </View> */}
 
       {/* firebase store variables */}
 
       
 
-      <View style={{position: "relative", top: "0%", left: "5%"}}>
+      {/* <View style={{position: "relative", top: "0%", left: "5%"}}>
         <View style={styles.vstack}>
         <Text style={{marginBottom: 20}}>20 </Text>
         <Text style={{marginBottom: 20}}>15 </Text>
@@ -105,7 +108,7 @@ export default function App() {
         <Text style={{marginRight: 35}}>20</Text>
         <Text style={{marginRight: 35}}>25</Text>
         </View>
-      </View>
+      </View> */}
 
         <TouchableOpacity style={styles.PuffButton2} onPress={toggleVisibility}>
         <Text style={{textAlign: "center", color: "red", fontSize: "30", fontWeight: 400}}>UPDATE  PUFFS</Text>

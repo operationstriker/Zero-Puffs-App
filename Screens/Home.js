@@ -4,6 +4,7 @@ import { StyleSheet, Text, View, Button, TouchableOpacity, Image } from 'react-n
 import React, { useState } from "react"
 import { AnimatedCircularProgress } from 'react-native-circular-progress';
 import { TextInput } from 'react-native';
+import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
 
 export default function App() {
 
@@ -45,13 +46,14 @@ export default function App() {
             <View>
              <Text style={{fontSize: 40, textAlign: "center"}}> {value}</Text>
              <Text style={{fontSize: 20}} id='MaxText'>out of { maxValue }</Text>
+             <FontAwesome5 name="pen" size={24} color="black" />
           
             </View>
           )
         }
       </AnimatedCircularProgress>
 
-      <View style={{backgroundColor: "rgba(239, 239, 239, 1)", height: 200, width: 250, borderRadius: 20,}}>
+      {/* <View style={{backgroundColor: "rgba(239, 239, 239, 1)", height: 200, width: 250, borderRadius: 20,}}>
         <Text style={{textAlign: "center", fontSize: 20, fontWeight: "bold"}}>Update Puffs</Text>
          <TouchableOpacity style={{backgroundColor: "gray", height: 30, width: 100, borderRadius: 5, left: 20}}>
           <Text style={{color: "white", textAlign: "center", fontSize: 20}}>Add</Text>
@@ -68,7 +70,9 @@ export default function App() {
           <Text style={{color: "white", textAlign: "center", fontSize: 20, fontWeight: "bold"}}>Update</Text>
          </TouchableOpacity>
 
-      </View>
+      </View> */}
+
+      {/* firebase store variables */}
 
       
 

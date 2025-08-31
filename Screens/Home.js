@@ -59,7 +59,9 @@ export default function App() {
       <View>
         <Text>Set Daily Limit</Text>
 
-        <TouchableOpacity>Confirm</TouchableOpacity>
+        <TouchableOpacity>
+          <Text>Confirm</Text>
+        </TouchableOpacity>
       </View>
 
       {/* <View style={{backgroundColor: "rgba(239, 239, 239, 1)", height: 200, width: 250, borderRadius: 20,}}>
@@ -72,7 +74,7 @@ export default function App() {
           <Text style={{color: "white", textAlign: "center", fontSize: 20}}>Overwrite</Text>
          </TouchableOpacity>
 
-         <TextInput placeholder='Enter Puff Amount' style={{borderBottomWidth: 3, borderBottomColor: "gray"}}></TextInput>
+         <TextInput placeholder='Enter Puff Amount' style={{borderBottomWidth: 3, borderBottomColor: "red"}}></TextInput>
 
 
          <TouchableOpacity style={{backgroundColor: "red", height: 30, borderRadius: 10, width: 150, position: "relative", top: 60, left: 50}}>

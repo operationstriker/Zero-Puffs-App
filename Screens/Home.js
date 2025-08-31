@@ -59,8 +59,8 @@ export default function App() {
       <View style={{backgroundColor: "gray", height: 140, width: 230, borderRadius: 20}}>
         <Text style={{textAlign: "center"}}>Set Daily Limit</Text>
 
-        <TouchableOpacity style={{backgroundColor: "red", width: 100, height: 25, borderRadius: 20}}>
-          <Text>Confirm</Text>
+        <TouchableOpacity style={{backgroundColor: "red", width: 160, height: 30, borderRadius: 20, top: 70, left: 30}}>
+          <Text style={{textAlign: "center", color: "white", fontSize: 20}}>Confirm</Text>
         </TouchableOpacity>
       </View>
 

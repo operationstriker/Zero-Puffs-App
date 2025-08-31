@@ -10,7 +10,7 @@ export default function App() {
 
 
     const [value, setValue] = useState(0) // create a variable
-    const maxValue = 20;
+    const maxValue = 30;
     const fill = (value / maxValue) * 100;
 
     // make the text say text to configure then, change
@@ -56,6 +56,12 @@ export default function App() {
         }
       </AnimatedCircularProgress>
 
+      <View>
+        <Text>Set Daily Limit</Text>
+
+        <TouchableOpacity>Confirm</TouchableOpacity>
+      </View>
+
       {/* <View style={{backgroundColor: "rgba(239, 239, 239, 1)", height: 200, width: 250, borderRadius: 20,}}>
         <Text style={{textAlign: "center", fontSize: 20, fontWeight: "bold"}}>Update Puffs</Text>
          <TouchableOpacity style={{backgroundColor: "gray", height: 30, width: 100, borderRadius: 5, left: 20}}>
@@ -66,7 +72,7 @@ export default function App() {
           <Text style={{color: "white", textAlign: "center", fontSize: 20}}>Overwrite</Text>
          </TouchableOpacity>
 
-         <TextInput placeholder='Enter Puff Amount' style={{borderBottomWidth: 5, borderBottomColor: "black"}}></TextInput>
+         <TextInput placeholder='Enter Puff Amount' style={{borderBottomWidth: 3, borderBottomColor: "gray"}}></TextInput>
 
 
          <TouchableOpacity style={{backgroundColor: "red", height: 30, borderRadius: 10, width: 150, position: "relative", top: 60, left: 50}}>

@@ -76,6 +76,7 @@ export default function App() {
         </TouchableOpacity>
       </View> */}
 
+  {VisibleView1 && (
       <View style={{backgroundColor: "rgba(239, 239, 239, 1)", height: 200, width: 250, borderRadius: 20,}}>
         <Text style={{textAlign: "center", fontSize: 20, fontWeight: "bold"}}>Update Puffs</Text>
          <TouchableOpacity style={{backgroundColor: "gray", height: 30, width: 100, borderRadius: 5, left: 20}}>
@@ -92,6 +93,7 @@ export default function App() {
           <Text style={{color: "white", textAlign: "center", fontSize: 20, fontWeight: "bold"}}>Update</Text>
          </TouchableOpacity>
       </View>
+        )}
 
       {/* firebase store variables */}
 
@@ -117,7 +119,7 @@ export default function App() {
       </View>
 
 
-        <TouchableOpacity style={styles.PuffButton2} onPress={() => setIsVisible1(!VisibleView1)}>
+        <TouchableOpacity style={styles.PuffButton2} onPress={() => setVisibility1(!VisibleView1)}>
         <Text style={{textAlign: "center", color: "red", fontSize: "30", fontWeight: 400}}>UPDATE  PUFFS</Text>
       </TouchableOpacity>
 

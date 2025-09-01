@@ -15,21 +15,18 @@ export default function App() {
     // make the text say text to configure then, change
     // how long they've gone without it days, add section, high medium low none - how many puffs - from lachlan
 
-
-
-
   function pufffunc() {
     setValue(value + 1)
   }
 
-  const [isVisible, setVisibility] = useState(false);
+  // const [isVisible, setVisibility] = useState(false);
 
-  const toggleVisibility = () => {
-    setVisibility(!isVisible);
-  }
+  // const toggleVisibility = () => {
+  //   setVisibility(!isVisible);
+  // }
 
     const [VisibleView1, setVisibility1] = useState(false);
-
+    const [VisibleDaily, setVisibilityDaily] = useState(false)
 
 
   // if puffs is 0, tap to configure
@@ -50,11 +47,9 @@ export default function App() {
             <View>
              <Text style={{fontSize: 40, textAlign: "center"}}> {value}</Text>
              <Text style={{fontSize: 20}} id='MaxText'>out of { maxValue }</Text>
-             <TouchableOpacity>
+             <TouchableOpacity onPress={() => setVisibilityDaily(!VisibleDaily)}>
              <FontAwesome5 name="pen" size={20} color="black" style={{position: "relative", bottom: 24, left: 90}} />  
              </TouchableOpacity>
-             
-          
             </View>
           )
         }
@@ -66,7 +61,8 @@ export default function App() {
       
       */}
 
-      {/* <View style={{backgroundColor: "rgba(217, 217, 217, 1)", height: 140, width: 230, borderRadius: 20}}>
+   {VisibleDaily && (
+              <View style={{backgroundColor: "rgba(217, 217, 217, 1)", height: 140, width: 230, borderRadius: 20}}>
         <Text style={{textAlign: "center", fontSize: 20}}>Set Daily Limit</Text>
 
         <TextInput style={{borderBottomWidth: 5, borderBottomColor: "red", top: 30}}></TextInput>
@@ -74,7 +70,9 @@ export default function App() {
         <TouchableOpacity style={{backgroundColor: "red", width: 160, height: 30, borderRadius: 20, top: 60, left: 35}}>
           <Text style={{textAlign: "center", color: "white", fontSize: 20}}>Confirm</Text>
         </TouchableOpacity>
-      </View> */}
+      </View>
+      )}
+
 
   {VisibleView1 && (
       <View style={{backgroundColor: "rgba(239, 239, 239, 1)", height: 200, width: 250, borderRadius: 20,}}>

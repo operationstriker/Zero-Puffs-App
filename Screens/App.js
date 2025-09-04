@@ -39,10 +39,11 @@ export default function App() {
         tabBarShowLabel: false,
         tabBarStyle: {
           position: 'relative',
-          bottom: 30,
+          bottom: 5,
+          // bottom: 30,
          borderTopWidth: 0,
-         height: 60,
-         borderRadius: 20,
+         height: 70,
+        //  borderRadius: 20,
          backgroundColor: "rgba(243, 243, 243, 1)"
         },
            tabBarIconStyle: {

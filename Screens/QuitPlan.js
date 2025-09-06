@@ -40,7 +40,7 @@ export default function App() {
 
      <View>
 
-      <Image source={require('../assets/Images/Target.png')} height={200}></Image>
+      <Image source={require('../assets/Images/Target.png')} style={{height: 50, width: 50}}></Image>
 
       <View>
         <Text style={{textAlign: "center"}}>Today's Limit</Text>

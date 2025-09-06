@@ -12,8 +12,13 @@ export default function App() {
     const maxValue = 20;
   const fill = (value / maxValue) * 100;
 
-  const [value2, setValue2] = useState(14) // create a variable
-  const maxValue2 = 20;
+  //Days
+  const [value2, setValue2] = useState(44) // create a variable
+  const maxValue2 = 30;
+  const fill2 = (value2 / maxValue2) * 100;
+
+  const [value2, setValue2] = useState(44) // create a variable
+  const maxValue2 = 60;
   const fill2 = (value2 / maxValue2) * 100;
 
   // const dayfill = (day / dayMax) * 100;
@@ -45,7 +50,7 @@ export default function App() {
             <AnimatedCircularProgress
             size={70}
             width={5}
-            fill={fill}
+            fill={fill2}
             tintColor="#ff0000ff"
             backgroundColor="#bababaff"
             rotation={-0} style={{position: "relative", top: 20, left: 15}}>

@@ -9,11 +9,11 @@ export default function App() {
 
   const [Count, setCount] = useState(0)
     const [value, setValue] = useState(14) // create a variable
-    const maxValue = 20;
+    const maxValue = 24;
   const fill = (value / maxValue) * 100;
 
   //Days
-  const [value2, setValue2] = useState(44) // create a variable
+  const [value2, setValue2] = useState(22) // create a variable
   const maxValue2 = 30;
   const fill2 = (value2 / maxValue2) * 100;
 

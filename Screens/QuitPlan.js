@@ -24,25 +24,9 @@ export default function App() {
     <View style={{backgroundColor: "rgba(208, 208, 208, 1)", borderRadius: 20, width: 300}}>
         <Text>Countdown Timer</Text>
 
-        <View>
-          <Text>29</Text>
-          <Text>days</Text>
-        </View>
-
-        <View>
-          <Text>29</Text>
-          <Text>days</Text>
-        </View>
-
-        <View>
-          <Text>29</Text>
-          <Text>days</Text>
-        </View>
-
-
        <AnimatedCircularProgress
-            size={100}
-            width={10}
+            size={70}
+            width={5}
             fill={fill}
             tintColor="#ff0000ff"
             backgroundColor="#bababaff"
@@ -58,7 +42,7 @@ export default function App() {
           </AnimatedCircularProgress>
 
             <AnimatedCircularProgress
-            size={100}
+            size={70}
             width={10}
             fill={fill}
             tintColor="#ff0000ff"

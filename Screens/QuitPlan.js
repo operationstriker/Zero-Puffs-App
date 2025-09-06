@@ -40,6 +40,8 @@ export default function App() {
 
      <View>
 
+      <Image source={require('../assets/Images/Target.png')} height={200}></Image>
+
       <View>
         <Text style={{textAlign: "center"}}>Today's Limit</Text>
         <Text style={{textAlign: "center", color: "red", fontWeight: "bold"}}>10 Puffs</Text>
@@ -47,7 +49,7 @@ export default function App() {
 
       <View>
         <Text style={{textAlign: "center"}}>Puff's Today</Text>
-        <Text style={{textAlign: "center", color: "red", fontWeight: "bold"}}>10 Puffs</Text>
+        <Text style={{textAlign: "center", color: "rgba(0, 183, 255, 1)", fontWeight: "bold"}}>10 Puffs</Text>
       </View>
       
      </View>
@@ -136,4 +138,3 @@ const styles = StyleSheet.create({
   }
 
 });
-

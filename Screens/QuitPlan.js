@@ -12,6 +12,13 @@ export default function App() {
     const maxValue = 20;
   const fill = (value / maxValue) * 100;
 
+  const dayMax = 30
+  const dayMax = 30
+  const dayMax = 30
+
+  const [day, setDays] = useState(0)
+  const [hours, setHours] = useState(0)
+
 
   return (
     <View style={styles.container}>
@@ -36,8 +43,8 @@ export default function App() {
             {
               (fill) => (
                 <View>
-                 <Text style={{fontSize: 25, textAlign: "center", color: "red"}}> {value}</Text>
-                 <Text>Hour</Text>
+                 <Text style={{fontSize: 25, textAlign: "center", color: "red"}}> {day}</Text>
+                 <Text>Days</Text>
                 </View>
               )
             }
@@ -54,7 +61,7 @@ export default function App() {
               (fill) => (
                 <View>
                  <Text style={{fontSize: 30, textAlign: "center", color: "red"}}> {value}</Text>
-                 <Text>Day</Text>
+                 <Text>Hours</Text>
                 </View>
               )
             }

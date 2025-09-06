@@ -5,7 +5,6 @@ import { Tabs } from "expo-router"
 import { AnimatedCircularProgress } from 'react-native-circular-progress';
 import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
 
-
 export default function App() {
 
   const [Count, setCount] = useState(0)
@@ -39,15 +38,11 @@ export default function App() {
           <Text>29</Text>
           <Text>days</Text>
         </View>
-    </View>
 
-    <View>
-    <Text>Graph</Text>
-    </View>
 
        <AnimatedCircularProgress
-            size={220}
-            width={17}
+            size={100}
+            width={10}
             fill={fill}
             tintColor="#ff0000ff"
             backgroundColor="#bababaff"
@@ -55,15 +50,19 @@ export default function App() {
             {
               (fill) => (
                 <View>
-                 <Text style={{fontSize: 40, textAlign: "center"}}> {value}</Text>
-                 <Text style={{fontSize: 20}} id='MaxText'>out of { maxValue }</Text>
-                 <TouchableOpacity onPress={() => setVisibilityDaily(!VisibleDaily)}>
-                 <FontAwesome5 name="pen" size={20} color="black" style={{position: "relative", bottom: 24, left: 90}} />  
-                 </TouchableOpacity>
+                 <Text style={{fontSize: 40, textAlign: "center", color: "red"}}> {value}</Text>
+                 <Text>Day</Text>
                 </View>
               )
             }
           </AnimatedCircularProgress>
+
+        {/*  */}
+    </View>
+
+    <View>
+    <Text>Graph</Text>
+    </View>
 
 
 

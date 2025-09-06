@@ -7,7 +7,7 @@ import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
 
 export default function App() {
 
-    const [value, setValue] = useState(14) // create a variable
+    const [value, setValue] = useState(23) // create a variable
     const maxValue = 24;
   const fill = (value / maxValue) * 100;
 
@@ -40,6 +40,11 @@ export default function App() {
 
      <View>
       <Text>Limit</Text>
+
+      <View>
+        <Text></Text>
+      </View>
+      
      </View>
 
     <View style={{backgroundColor: "rgba(231, 231, 231, 1)", borderRadius: 20, width: 300, height: 150}}>
@@ -126,4 +131,3 @@ const styles = StyleSheet.create({
   }
 
 });
-

@@ -3,6 +3,7 @@ import { StyleSheet, Text, View, Button, TouchableOpacity, Image } from 'react-n
 import React, { useState } from "react"
 import { Tabs } from "expo-router"
 import { AnimatedCircularProgress } from 'react-native-circular-progress';
+import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
 
 
 export default function App() {

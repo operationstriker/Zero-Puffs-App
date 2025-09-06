@@ -13,6 +13,8 @@ export default function App() {
   const fill = (value / maxValue) * 100;
 
   const dayfill = (day / dayMax) * 100;
+  const hourfill = (day / dayMax) * 100;
+  const minutefill = (day / dayMax) * 100;
 
   const dayMax = 30
   const hourMax = 30
@@ -38,7 +40,7 @@ export default function App() {
             <AnimatedCircularProgress
             size={70}
             width={5}
-            fill={dayfill}
+            dayfill={dayfill}
             tintColor="#ff0000ff"
             backgroundColor="#bababaff"
             rotation={-0} style={{position: "relative", top: 20, left: 15}}>

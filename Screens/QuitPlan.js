@@ -17,9 +17,9 @@ export default function App() {
   const maxValue2 = 30;
   const fill2 = (value2 / maxValue2) * 100;
 
-  const [value2, setValue2] = useState(44) // create a variable
-  const maxValue2 = 60;
-  const fill2 = (value2 / maxValue2) * 100;
+  const [value3, setValue3] = useState(44) // create a variable
+  const maxValue3 = 60;
+  const fill3 = (value2 / maxValue2) * 100;
 
   // const dayfill = (day / dayMax) * 100;
   // const hoursfill = (hours / hourMax) * 100;

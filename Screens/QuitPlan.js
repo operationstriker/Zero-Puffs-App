@@ -21,8 +21,8 @@ export default function App() {
       <Text>Limit</Text>
      </View>
 
-    <View style={{backgroundColor: "rgba(208, 208, 208, 1)", borderRadius: 20, width: 300, height: 150}}>
-        <Text style={{textAlign: "center"}}>Countdown Timer</Text>
+    <View style={{backgroundColor: "rgba(231, 231, 231, 1)", borderRadius: 20, width: 300, height: 150}}>
+        <Text style={{textAlign: "center", fontSize: 20, fontWeight: '600'}}>Countdown Timer</Text>
 
        <AnimatedCircularProgress
             size={70}

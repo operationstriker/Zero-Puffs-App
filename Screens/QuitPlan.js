@@ -50,8 +50,42 @@ export default function App() {
             {
               (fill) => (
                 <View>
-                 <Text style={{fontSize: 40, textAlign: "center", color: "red"}}> {value}</Text>
+                 <Text style={{fontSize: 30, textAlign: "center", color: "red"}}> {value}</Text>
                  <Text>Day</Text>
+                </View>
+              )
+            }
+          </AnimatedCircularProgress>
+
+            <AnimatedCircularProgress
+            size={100}
+            width={10}
+            fill={fill}
+            tintColor="#ff0000ff"
+            backgroundColor="#bababaff"
+            rotation={-0} style={{position: "relative", bottom: 53}}>
+            {
+              (fill) => (
+                <View>
+                 <Text style={{fontSize: 30, textAlign: "center", color: "red"}}> {value}</Text>
+                 <Text>Hour</Text>
+                </View>
+              )
+            }
+          </AnimatedCircularProgress>
+
+            <AnimatedCircularProgress
+            size={100}
+            width={10}
+            fill={fill}
+            tintColor="#ff0000ff"
+            backgroundColor="#bababaff"
+            rotation={-0} style={{position: "relative", bottom: 53}}>
+            {
+              (fill) => (
+                <View>
+                 <Text style={{fontSize: 30, textAlign: "center", color: "red"}}> {value}</Text>
+                 <Text>Min</Text>
                 </View>
               )
             }

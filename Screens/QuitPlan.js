@@ -13,7 +13,7 @@ export default function App() {
   const fill = (value / maxValue) * 100;
 
   const dayfill = (day / dayMax) * 100;
-  const hourfill = (day / dayMax) * 100;
+  const hoursfill = (hours / hourMax) * 100;
   const minutefill = (day / dayMax) * 100;
 
   const dayMax = 30

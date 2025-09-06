@@ -42,7 +42,8 @@ export default function App() {
       <Text>Limit</Text>
 
       <View>
-        <Text></Text>
+        <Text>Today's Limit</Text>
+        <Text>10 Puffs</Text>
       </View>
       
      </View>

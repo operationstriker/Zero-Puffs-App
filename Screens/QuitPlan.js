@@ -8,20 +8,25 @@ import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
 export default function App() {
 
   const [Count, setCount] = useState(0)
-    const [value, setValue] = useState(4) // create a variable
+    const [value, setValue] = useState(14) // create a variable
     const maxValue = 20;
   const fill = (value / maxValue) * 100;
 
-  const dayfill = (day / dayMax) * 100;
-  const hoursfill = (hours / hourMax) * 100;
-  const minutefill = (day / dayMax) * 100;
+  const [value2, setValue2] = useState(14) // create a variable
+  const maxValue2 = 20;
+  const fill2 = (value2 / maxValue2) * 100;
 
-  const dayMax = 30
-  const hourMax = 30
-  const minuteMax = 30
+  // const dayfill = (day / dayMax) * 100;
+  // const hoursfill = (hours / hourMax) * 100;
+  // const minutefill = (minute / minuteMax) * 100;
 
-  const [day, setDays] = useState(15)
-  const [hours, setHours] = useState(0)
+  // const dayMax = 30
+  // const hourMax = 30
+  // const minuteMax = 30
+
+  // const [day, setDay] = useState(19)
+  // const [hours, setHours] = useState(0)
+  // const [minute, setMinute] = useState(0)
 
 
   return (
@@ -40,14 +45,14 @@ export default function App() {
             <AnimatedCircularProgress
             size={70}
             width={5}
-            dayfill={dayfill}
+            fill={fill}
             tintColor="#ff0000ff"
             backgroundColor="#bababaff"
             rotation={-0} style={{position: "relative", top: 20, left: 15}}>
             {
-              (dayfill) => (
+              (fill) => (
                 <View>
-                 <Text style={{fontSize: 25, textAlign: "center", color: "red"}}> {day}</Text>
+                 <Text style={{fontSize: 25, textAlign: "center", color: "red"}}> {value2}</Text>
                  <Text>Days</Text>
                 </View>
               )

@@ -2,11 +2,15 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, TouchableOpacity, Image } from 'react-native';
 import React, { useState } from "react"
 import { Tabs } from "expo-router"
+import { AnimatedCircularProgress } from 'react-native-circular-progress';
 
 
 export default function App() {
 
   const [Count, setCount] = useState(0)
+    const [value, setValue] = useState(0) // create a variable
+    const maxValue = 20;
+  const fill = (value / maxValue) * 100;
 
 
   return (
@@ -39,6 +43,26 @@ export default function App() {
     <View>
     <Text>Graph</Text>
     </View>
+
+       <AnimatedCircularProgress
+            size={220}
+            width={17}
+            fill={fill}
+            tintColor="#ff0000ff"
+            backgroundColor="#bababaff"
+            rotation={-0} style={{position: "relative", bottom: 53}}>
+            {
+              (fill) => (
+                <View>
+                 <Text style={{fontSize: 40, textAlign: "center"}}> {value}</Text>
+                 <Text style={{fontSize: 20}} id='MaxText'>out of { maxValue }</Text>
+                 <TouchableOpacity onPress={() => setVisibilityDaily(!VisibleDaily)}>
+                 <FontAwesome5 name="pen" size={20} color="black" style={{position: "relative", bottom: 24, left: 90}} />  
+                 </TouchableOpacity>
+                </View>
+              )
+            }
+          </AnimatedCircularProgress>
 
 
 

@@ -32,7 +32,7 @@ export default function App() {
             fill={fill}
             tintColor="#ff0000ff"
             backgroundColor="#bababaff"
-            rotation={-0} style={{position: "relative", top: 20, left: 5}}>
+            rotation={-0} style={{position: "relative", top: 20, left: 15}}>
             {
               (fill) => (
                 <View>
@@ -49,7 +49,7 @@ export default function App() {
             fill={fill}
             tintColor="#ff0000ff"
             backgroundColor="#bababaff"
-            rotation={-0} style={{position: "relative", bottom: 50, left: 100}}>
+            rotation={-0} style={{position: "relative", bottom: 50, left: 115}}>
             {
               (fill) => (
                 <View>
@@ -66,7 +66,7 @@ export default function App() {
             fill={fill}
             tintColor="#ff0000ff"
             backgroundColor="#bababaff"
-            rotation={-0} style={{position: "relative", bottom: 120, left: 200}}>
+            rotation={-0} style={{position: "relative", bottom: 120, left: 215}}>
             {
               (fill) => (
                 <View>

@@ -24,22 +24,7 @@ export default function App() {
     <View style={{backgroundColor: "rgba(231, 231, 231, 1)", borderRadius: 20, width: 300, height: 150}}>
         <Text style={{textAlign: "center", fontSize: 20, fontWeight: '600'}}>Countdown Timer</Text>
 
-       <AnimatedCircularProgress
-            size={70}
-            width={5}
-            fill={fill}
-            tintColor="#ff0000ff"
-            backgroundColor="#bababaff"
-            rotation={-0} style={{position: "relative", top: 35, left: 100}}>
-            {
-              (fill) => (
-                <View>
-                 <Text style={{fontSize: 30, textAlign: "center", color: "red"}}> {value}</Text>
-                 <Text>Day</Text>
-                </View>
-              )
-            }
-          </AnimatedCircularProgress>
+
 
             <AnimatedCircularProgress
             size={70}
@@ -47,12 +32,29 @@ export default function App() {
             fill={fill}
             tintColor="#ff0000ff"
             backgroundColor="#bababaff"
-            rotation={-0} style={{position: "relative", bottom: 30}}>
+            rotation={-0} style={{position: "relative", bottom: 0}}>
             {
               (fill) => (
                 <View>
                  <Text style={{fontSize: 25, textAlign: "center", color: "red"}}> {value}</Text>
                  <Text>Hour</Text>
+                </View>
+              )
+            }
+          </AnimatedCircularProgress>
+
+                 <AnimatedCircularProgress
+            size={70}
+            width={5}
+            fill={fill}
+            tintColor="#ff0000ff"
+            backgroundColor="#bababaff"
+            rotation={-0} style={{position: "relative", bottom: 40, left: 100}}>
+            {
+              (fill) => (
+                <View>
+                 <Text style={{fontSize: 30, textAlign: "center", color: "red"}}> {value}</Text>
+                 <Text>Day</Text>
                 </View>
               )
             }

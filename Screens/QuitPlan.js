@@ -42,8 +42,8 @@ export default function App() {
       <Text>Limit</Text>
 
       <View>
-        <Text>Today's Limit</Text>
-        <Text>10 Puffs</Text>
+        <Text style={{textAlign: "center"}}>Today's Limit</Text>
+        <Text style={{textAlign: "center"}}>10 Puffs</Text>
       </View>
       
      </View>

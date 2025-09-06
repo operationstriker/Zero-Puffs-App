@@ -8,7 +8,7 @@ import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
 export default function App() {
 
   const [Count, setCount] = useState(0)
-    const [value, setValue] = useState(0) // create a variable
+    const [value, setValue] = useState(4) // create a variable
     const maxValue = 20;
   const fill = (value / maxValue) * 100;
 
@@ -22,7 +22,7 @@ export default function App() {
      </View>
 
     <View style={{backgroundColor: "rgba(208, 208, 208, 1)", borderRadius: 20, width: 300}}>
-        <Text>Countdown Timer</Text>
+        <Text style={{textAlign: "center"}}>Countdown Timer</Text>
 
        <AnimatedCircularProgress
             size={70}
@@ -30,7 +30,7 @@ export default function App() {
             fill={fill}
             tintColor="#ff0000ff"
             backgroundColor="#bababaff"
-            rotation={-0} style={{position: "relative", bottom: 53}}>
+            rotation={-0} style={{position: "relative", bottom: 30}}>
             {
               (fill) => (
                 <View>
@@ -47,11 +47,11 @@ export default function App() {
             fill={fill}
             tintColor="#ff0000ff"
             backgroundColor="#bababaff"
-            rotation={-0} style={{position: "relative", bottom: 53}}>
+            rotation={-0} style={{position: "relative", bottom: 30}}>
             {
               (fill) => (
                 <View>
-                 <Text style={{fontSize: 30, textAlign: "center", color: "red"}}> {value}</Text>
+                 <Text style={{fontSize: 25, textAlign: "center", color: "red"}}> {value}</Text>
                  <Text>Hour</Text>
                 </View>
               )
@@ -60,11 +60,11 @@ export default function App() {
 
             <AnimatedCircularProgress
             size={70}
-            width={10}
+            width={5}
             fill={fill}
             tintColor="#ff0000ff"
             backgroundColor="#bababaff"
-            rotation={-0} style={{position: "relative", bottom: 53}}>
+            rotation={-0} style={{position: "relative", bottom: 100, left: 200}}>
             {
               (fill) => (
                 <View>

@@ -15,7 +15,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-     <Text style={{fontWeight: "bold", fontSize: 30, textAlign: "center", position: "relative", bottom: "33%"}}>Quit Plan</Text>
+     <Text style={{fontWeight: "bold", fontSize: 30, textAlign: "center", position: "relative", bottom: "25%"}}>Quit Plan</Text>
 
      <View>
       <Text>Limit</Text>

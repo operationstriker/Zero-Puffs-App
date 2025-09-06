@@ -17,7 +17,7 @@ export default function App() {
   const maxValue2 = 30;
   const fill2 = (value2 / maxValue2) * 100;
 
-  const [value3, setValue3] = useState(44) // create a variable
+  const [value3, setValue3] = useState(57) // create a variable
   const maxValue3 = 60;
   const fill3 = (value2 / maxValue2) * 100;
 
@@ -67,14 +67,14 @@ export default function App() {
                  <AnimatedCircularProgress
             size={70}
             width={5}
-            fill={fill}
+            fill={fill3}
             tintColor="#ff0000ff"
             backgroundColor="#bababaff"
             rotation={-0} style={{position: "relative", bottom: 50, left: 115}}>
             {
               (fill) => (
                 <View>
-                 <Text style={{fontSize: 30, textAlign: "center", color: "red"}}> {value}</Text>
+                 <Text style={{fontSize: 30, textAlign: "center", color: "red"}}> {value3}</Text>
                  <Text>Hours</Text>
                 </View>
               )

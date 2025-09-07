@@ -38,7 +38,7 @@ export default function App() {
     <View style={styles.container}>
      <Text style={{fontWeight: "bold", fontSize: 30, textAlign: "center", position: "relative", bottom: "25%"}}>Quit Plan</Text>
 
-     <View style={{backgroundColor: "rgba(239, 239, 239, 1)", width: 300, position: "relative", bottom: 30}}>
+     <View style={{backgroundColor: "rgba(239, 239, 239, 1)", width: 300, position: "relative", bottom: 30, borderRadius: 20}}>
 
       <Image source={require('../assets/Images/Target.png')} style={{height: 50, width: 50}}></Image>
 

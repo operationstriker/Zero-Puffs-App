@@ -33,7 +33,6 @@ export default function App() {
   // const [hours, setHours] = useState(0)
   // const [minute, setMinute] = useState(0)
 
-
   return (
     <View style={styles.container}>
      <Text style={{fontWeight: "bold", fontSize: 30, textAlign: "center", position: "relative", bottom: "25%"}}>Quit Plan</Text>
@@ -107,8 +106,6 @@ export default function App() {
               )
             }
           </AnimatedCircularProgress>
-
-        {/*  */}
     </View>
 
     <View>
@@ -136,5 +133,4 @@ const styles = StyleSheet.create({
     width: 130,
     marginRight: 20
   }
-
 });

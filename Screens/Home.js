@@ -22,21 +22,12 @@ export default function App() {
     setValue(value + 1)
   }
 
-  // const [isVisible, setVisibility] = useState(false);
-
-  // const toggleVisibility = () => {
-  //   setVisibility(!isVisible);
-  // }
-
     const [VisibleView1, setVisibility1] = useState(false);
     const [VisibleDaily, setVisibilityDaily] = useState(false)
 
     function changeMaxvalue() {
        maxValue = 30
     }
-
-
-  // if puffs is 0, tap to configure
 
   return (
     <View style={styles.container}>

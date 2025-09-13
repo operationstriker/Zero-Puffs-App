@@ -13,7 +13,7 @@ export default function App() {
     const maxValue = 20;
     const fill = (value / maxValue) * 100;
 
-    const maxvalcolor = maxValue > maxValue 
+    const maxvalcolor = maxValue > maxValue ? '#ff0000ff' : "#7a0000ff"
 
     // make the text say text to configure then, change
     // how long they've gone without it days, add section, high medium low none - how many puffs - from lachlan
@@ -37,7 +37,8 @@ export default function App() {
         size={220}
         width={17}
         fill={fill}
-        tintColor="#ff0000ff"
+        tintColor={maxvalcolor}
+        // tintColor="#ff0000ff"
         // tintColor="#7a0000ff"
         backgroundColor="#bababaff"
         rotation={-0} style={{position: "relative", bottom: 53}}>

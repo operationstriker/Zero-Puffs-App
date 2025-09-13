@@ -5,6 +5,7 @@ import React, { useState } from "react"
 import { AnimatedCircularProgress } from 'react-native-circular-progress';
 import { TextInput } from 'react-native';
 import FontAwesome5 from '@expo/vector-icons/FontAwesome5';
+import LineChart from 'react-native-simple-line-chart'
 
 export default function App() {
 
@@ -28,6 +29,10 @@ export default function App() {
     const [VisibleView1, setVisibility1] = useState(false);
     const [VisibleDaily, setVisibilityDaily] = useState(false)
 
+    function changeMaxvalue() {
+       maxValue = 30
+    }
+
 
   // if puffs is 0, tap to configure
 
@@ -39,7 +44,8 @@ export default function App() {
         size={220}
         width={17}
         fill={fill}
-        tintColor="#ff0000ff"
+        // tintColor="#ff0000ff"
+        tintColor="#7a0000ff"
         backgroundColor="#bababaff"
         rotation={-0} style={{position: "relative", bottom: 53}}>
         {
@@ -55,6 +61,8 @@ export default function App() {
         }
       </AnimatedCircularProgress>
 
+      {/* if it goes over */}
+
       {/* 1. Graph
       2. Update puffs, set confirm daily limit
       3. quit plan
@@ -67,7 +75,10 @@ export default function App() {
 
         <TextInput style={{borderBottomWidth: 5, borderBottomColor: "red", top: 30}}></TextInput>
 
-        <TouchableOpacity style={{backgroundColor: "red", width: 160, height: 30, borderRadius: 20, top: 60, left: 35}}>
+        <TouchableOpacity style={{backgroundColor: "red", width: 160, height: 30, borderRadius: 20, top: 60, left: 35}} onPress={() => {
+          setVisibilityDaily();
+          changeMaxvalue();
+        }}>
           <Text style={{textAlign: "center", color: "white", fontSize: 20}}>Confirm</Text>
         </TouchableOpacity>
       </View>
@@ -88,7 +99,7 @@ export default function App() {
          <TextInput placeholder='Enter Puff Amount' style={{borderBottomWidth: 3, borderBottomColor: "red"}}></TextInput>
 
          <TouchableOpacity style={{backgroundColor: "red", height: 30, borderRadius: 10, width: 150, position: "relative", top: 60, left: 50}}>
-          <Text style={{color: "white", textAlign: "center", fontSize: 20, fontWeight: "bold"}}>Update</Text>
+          <Text style={{color: "white", textAlign: "center", fontSize: 20, fontWeight: "bold"}} onPress={() => setVisibility1(!VisibleView1)}>Update</Text>
          </TouchableOpacity>
       </View>
         )}
@@ -115,6 +126,8 @@ export default function App() {
         <Text style={{marginRight: 35}}>25</Text>
         </View>
       </View>
+
+              
 
 
         <TouchableOpacity style={styles.PuffButton2} onPress={() => setVisibility1(!VisibleView1)}>

@@ -4,6 +4,7 @@ import React, { useState } from "react"
 import { Tabs } from "expo-router"
 // Vape Usage
 import { AnimatedCircularProgress } from 'react-native-circular-progress';
+import LineChart from "react-native-responsive-linechart";
 
 
 export default function App() {
@@ -43,23 +44,7 @@ export default function App() {
 
      {/* Graph */}
 
-        <View style={{position: "relative", top: "0%", left: "5%"}}>
-        <View style={styles.vstack}>
-        <Text style={{marginBottom: 20}}>20 </Text>
-        <Text style={{marginBottom: 20}}>15 </Text>
-        <Text style={{marginBottom: 20}}>10 </Text>
-        <Text style={{marginBottom: 20}}>5</Text>
-        </View>
 
-      <View style={styles.hstack}>
-        <Text style={{marginRight: 35}}>0</Text>
-        <Text style={{marginRight: 35}}>5</Text>
-        <Text style={{marginRight: 35}}>10</Text>
-        <Text style={{marginRight: 35}}>15</Text>
-        <Text style={{marginRight: 35}}>20</Text>
-        <Text style={{marginRight: 35}}>25</Text>
-        </View>
-      </View>
 
 
        <View style={{top: 100}}>

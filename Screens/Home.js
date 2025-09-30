@@ -124,7 +124,7 @@ export default function App() {
 
 
         <TouchableOpacity style={styles.PuffButton2} onPress={() => setVisibility1(!VisibleView1)}>
-        <Text style={{textAlign: "center", color: "red", fontSize: "30", fontWeight: 400}}>UPDATE  PUFFS</Text>
+        <Text style={{textAlign: "center", color: "#00b7ffff", fontSize: "30", fontWeight: 400}}>UPDATE  PUFFS</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.PuffButton} onPress={(() => setValue(value + 1))}>
@@ -159,7 +159,7 @@ const styles = StyleSheet.create({
     height: 57,
     width: "85%",
     borderWidth: 2,
-    borderColor: "red",
+    borderColor: "#00b7ffff",
     borderRadius: 27,
     backgroundColor: "white",
     cursor: "pointer",

@@ -12,8 +12,9 @@ export default function App() {
   const [value, setValue] = useState(1) // create a variable
   const maxValue = 20;
 
+  const data = [-10, -15, 40, 19, 32, 15, 52, 55, 20, 60, 78, 42, 56];
   const fill = (value / maxValue) * 100;
-
+  
 
   return (
     <View style={styles.container}>
@@ -37,12 +38,31 @@ export default function App() {
         <TouchableOpacity style={styles.PuffButton2}>
         <Text style={{textAlign: "center", fontSize: "20", fontWeight: "semibold"}}>All Time</Text>
         </TouchableOpacity>
+      
         </View>
 
         
 
 
      {/* Graph */}
+
+             <View style={{position: "relative", top: "0%", left: "5%"}}>
+             <View style={styles.vstack}>
+             <Text style={{marginBottom: 20}}>20 </Text>
+             <Text style={{marginBottom: 20}}>15 </Text>
+             <Text style={{marginBottom: 20}}>10 </Text>
+             <Text style={{marginBottom: 20}}>5</Text>
+             </View>
+     
+           <View style={styles.hstack}>
+             <Text style={{marginRight: 35}}>0</Text>
+             <Text style={{marginRight: 35}}>5</Text>
+             <Text style={{marginRight: 35}}>10</Text>
+             <Text style={{marginRight: 35}}>15</Text>
+             <Text style={{marginRight: 35}}>20</Text>
+             <Text style={{marginRight: 35}}>25</Text>
+             </View>
+           </View>
 
 
 
@@ -91,5 +111,10 @@ const styles = StyleSheet.create({
     width: 130,
     marginRight: 20
   },
-
+    vstack: {
+    flexDirection: "column"
+  },
+  hstack: {
+    flexDirection: "row"
+  },
 });

@@ -33,6 +33,9 @@ export default function App() {
   // const [hours, setHours] = useState(0)
   // const [minute, setMinute] = useState(0)
 
+  // on board screen
+
+
   return (
     <View style={styles.container}>
      <Text style={{fontWeight: "bold", fontSize: 30, textAlign: "center", position: "relative", bottom: "25%"}}>Quit Plan</Text>
@@ -48,7 +51,7 @@ export default function App() {
 
       <View>
         <Text style={{textAlign: "center"}}>Puff's Today</Text>
-        <Text style={{textAlign: "center", color: "rgba(0, 183, 255, 1)", fontWeight: "bold"}}>10 Puffs</Text>
+        <Text style={{textAlign: "center", color: "rgba(0, 183, 255, 1)", fontWeight: "bold", fontFamily: ""}}>10 Puffs</Text>
       </View>
       
      </View>
@@ -60,13 +63,13 @@ export default function App() {
             size={70}
             width={5}
             fill={fill2}
-            tintColor="#ff0000ff"
+            tintColor= "rgba(0, 183, 255, 1)"
             backgroundColor="#bababaff"
             rotation={-0} style={{position: "relative", top: 20, left: 15}}>
             {
               (fill) => (
                 <View>
-                 <Text style={{fontSize: 25, textAlign: "center", color: "red"}}> {value2}</Text>
+                 <Text style={{fontSize: 25, textAlign: "center", color: "rgba(0, 183, 255, 1)"}}> {value2}</Text>
                  <Text>Days</Text>
                 </View>
               )
@@ -106,6 +109,8 @@ export default function App() {
               )
             }
           </AnimatedCircularProgress>
+
+        {/*  */}
     </View>
 
     <View>
@@ -133,4 +138,5 @@ const styles = StyleSheet.create({
     width: 130,
     marginRight: 20
   }
+
 });

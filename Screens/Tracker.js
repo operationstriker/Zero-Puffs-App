@@ -18,7 +18,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={{fontSize: 30, fontFamily: "Calbri", bottom: "21%", color: "#1E1E1E", textAlign: "center", margin: 0}}>ZERO PUFFS</Text>
+      <Text style={{fontSize: 30, fontFamily: "Calbri", bottom: "11%", color: "#1E1E1E", textAlign: "center", margin: 0}}>ZERO PUFFS</Text>
       <Text style={{fontSize: 20, bottom: "21%"}}>PUFF Tracker</Text>
 
 
@@ -77,17 +77,6 @@ export default function App() {
       <Text style={{textAlign: "center", fontSize: 30}}>Daily Average</Text>
       <Text style={{textAlign: "center", fontSize: 20}}>1</Text>
        </View>
-       
-       
-       <View style={{top: 120, right: 86}}>
-        <Text style={{textAlign: "center", fontSize: 30}}>Total Puffs</Text>
-        <Text style={{textAlign: "center", fontSize: 20}}>0</Text>
-       </View>
-
-       <View style={{top: 60, left: 94}}>
-       <Text style={{textAlign: "center", fontSize: 30}}>Nicotine Intake</Text>
-       <Text style={{textAlign: "center", fontSize: 20}}>0</Text>
-       </View>
       </View>
        
 
@@ -106,7 +95,7 @@ const styles = StyleSheet.create({
     position: "relative",
     right: 85,
     height: 50,
-    bottom: 150,
+    bottom: 100,
     flexDirection: "row",
     width: 130,
     marginRight: 20

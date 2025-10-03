@@ -86,7 +86,7 @@ export default function App() {
             {
               (fill) => (
                 <View>
-                 <Text style={{fontSize: 30, textAlign: "center", color: "red"}}> {value}</Text>
+                 <Text style={{fontSize: 30, textAlign: "center", color: "rgba(0, 183, 255, 1)"}}> {value}</Text>
                  <Text>Hours</Text>
                 </View>
               )
@@ -97,13 +97,13 @@ export default function App() {
             size={70}
             width={5}
             fill={fill3}
-            tintColor="#ff0000ff"
+            tintColor="rgba(0, 183, 255, 1)"
             backgroundColor="#bababaff"
             rotation={-0} style={{position: "relative", bottom: 120, left: 215}}>
             {
               (fill) => (
                 <View>
-                 <Text style={{fontSize: 30, textAlign: "center", color: "red"}}> {value3}</Text>
+                 <Text style={{fontSize: 30, textAlign: "center", color: "rgba(0, 183, 255, 1)"}}> {value3}</Text>
                  <Text>Min</Text>
                 </View>
               )

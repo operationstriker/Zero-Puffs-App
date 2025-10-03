@@ -80,7 +80,7 @@ export default function App() {
             size={70}
             width={5}
             fill={fill}
-            tintColor="#ff0000ff"
+            tintColor="rgba(0, 183, 255, 1)"
             backgroundColor="#bababaff"
             rotation={-0} style={{position: "relative", bottom: 50, left: 115}}>
             {

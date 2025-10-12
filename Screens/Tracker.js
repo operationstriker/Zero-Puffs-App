@@ -18,27 +18,21 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={{fontSize: 30, fontFamily: "Calbri", bottom: "11%", color: "#1E1E1E", textAlign: "center", margin: 0}}>ZERO PUFFS</Text>
       <Text style={{fontSize: 20, bottom: "21%"}}>PUFF Tracker</Text>
 
 
         <View style={styles.Header}>
             <TouchableOpacity style={styles.PuffButton2}>
-            <Text style={{textAlign: "center", fontSize: "20", fontWeight: "semibold", marginRight: 20}}>Yesterday</Text>
+            <Text style={{textAlign: "center", fontSize: "20", fontWeight: "semibold", marginRight: 20}}>DAY</Text>
           </TouchableOpacity>
 
         <TouchableOpacity style={styles.PuffButton2}>
-        <Text style={{textAlign: "center", fontSize: "20", fontWeight: "semibold", marginRight: 20}}>Week</Text>
+        <Text style={{textAlign: "center", fontSize: "20", fontWeight: "semibold", marginRight: 20}}>WEEK</Text>
           </TouchableOpacity>
 
         <TouchableOpacity style={styles.PuffButton2}>
-        <Text style={{textAlign: "center", fontSize: "20", fontWeight: "semibold", marginRight: 20}}>Month</Text>
-        </TouchableOpacity>
-
-        <TouchableOpacity style={styles.PuffButton2}>
-        <Text style={{textAlign: "center", fontSize: "20", fontWeight: "semibold"}}>All Time</Text>
-        </TouchableOpacity>
-      
+        <Text style={{textAlign: "center", fontSize: "20", fontWeight: "semibold", marginRight: 20}}>MONTH</Text>
+        </TouchableOpacity> 
         </View>
 
         

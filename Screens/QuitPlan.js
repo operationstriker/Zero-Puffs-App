@@ -95,7 +95,7 @@ export default function App() {
           </AnimatedCircularProgress>
 
           <View>
-                             <Text>Hours</Text>
+            <Text>Hours</Text>
           </View>
 
             <AnimatedCircularProgress
@@ -109,7 +109,6 @@ export default function App() {
               (fill) => (
                 <View>
                  <Text style={{fontSize: 30, textAlign: "center", color: "rgba(0, 183, 255, 1)"}}> {value3}</Text>
-                 <Text>Min</Text>
                 </View>
               )
             }
@@ -126,7 +125,6 @@ export default function App() {
               (fill) => (
                 <View>
                  <Text style={{fontSize: 30, textAlign: "center", color: "rgba(0, 183, 255, 1)"}}> {value3}</Text>
-                 <Text>Seconds</Text>
                 </View>
               )
             }

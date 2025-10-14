@@ -70,7 +70,6 @@ export default function App() {
               (fill) => (
                 <View>
                  <Text style={{fontSize: 25, textAlign: "center", color: "rgba(0, 183, 255, 1)"}}> {value2}</Text>
-                
                 </View>
               )
             }
@@ -90,11 +89,14 @@ export default function App() {
               (fill) => (
                 <View>
                  <Text style={{fontSize: 30, textAlign: "center", color: "rgba(0, 183, 255, 1)"}}> {value}</Text>
-                 <Text>Hours</Text>
                 </View>
               )
             }
           </AnimatedCircularProgress>
+
+          <View>
+                             <Text>Hours</Text>
+          </View>
 
             <AnimatedCircularProgress
             size={70}

@@ -44,7 +44,7 @@ export default function App() {
 
       <Image source={require('../assets/Images/Target.png')} style={{height: 50, width: 50}}></Image>
 
-      <View>
+      <View style={{position: "relative", right: 55}}>
         <Text style={{textAlign: "center"}}>Today's Limit</Text>
         <Text style={{textAlign: "center", color: "red", fontWeight: "bold"}}>10 Puffs</Text>
       </View>
@@ -113,6 +113,9 @@ export default function App() {
               )
             }
           </AnimatedCircularProgress>
+            <View>
+            <Text>Mins</Text>
+          </View>
 
                       <AnimatedCircularProgress
             size={70}
@@ -129,6 +132,9 @@ export default function App() {
               )
             }
           </AnimatedCircularProgress>
+              <View>
+            <Text>Sec</Text>
+          </View>
 
         {/*  */}
     </View>

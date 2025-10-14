@@ -49,7 +49,7 @@ export default function App() {
         <Text style={{textAlign: "center", color: "red", fontWeight: "bold"}}>10 Puffs</Text>
       </View>
 
-      <View style={{position: "relative", bottom: 35}}>
+      <View style={{position: "relative", bottom: 35, left: 60}}>
         <Text style={{textAlign: "center"}}>Puff's Today</Text>
         <Text style={{textAlign: "center", color: "rgba(0, 183, 255, 1)", fontWeight: "bold", fontFamily: ""}}>10 Puffs</Text>
       </View>

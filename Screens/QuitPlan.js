@@ -65,7 +65,7 @@ export default function App() {
             fill={fill2}
             tintColor= "rgba(0, 183, 255, 1)"
             backgroundColor="#bababaff"
-            rotation={-0} style={{position: "relative", top: 20, left: 15}}>
+            rotation={-0} style={{position: "relative", top: 0, left: 15}}>
             {
               (fill) => (
                 <View>
@@ -81,7 +81,7 @@ export default function App() {
             fill={fill}
             tintColor="rgba(0, 183, 255, 1)"
             backgroundColor="#bababaff"
-            rotation={-0} style={{position: "relative", bottom: 50, left: 115}}>
+            rotation={-0} style={{position: "relative",top: 0, left: 115}}>
             {
               (fill) => (
                 <View>
@@ -97,7 +97,7 @@ export default function App() {
             fill={fill3}
             tintColor="rgba(0, 183, 255, 1)"
             backgroundColor="#bababaff"
-            rotation={-0} style={{position: "relative", bottom: 140, left: 215}}>
+            rotation={-0} style={{position: "relative", top: 0, left: 215}}>
             {
               (fill) => (
                 <View>
@@ -122,9 +122,7 @@ export default function App() {
               )
             }
           </AnimatedCircularProgress>
-      
 
-        {/*  */}
     </View>
 
     <View>

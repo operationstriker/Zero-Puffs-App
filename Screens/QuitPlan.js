@@ -132,9 +132,7 @@ export default function App() {
               )
             }
           </AnimatedCircularProgress>
-              <View>
-            <Text>Sec</Text>
-          </View>
+      
 
         {/*  */}
     </View>

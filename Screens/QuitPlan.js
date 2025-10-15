@@ -40,9 +40,9 @@ export default function App() {
     <View style={styles.container}>
      <Text style={{fontWeight: "bold", fontSize: 30, textAlign: "center", position: "relative", bottom: "23%"}}>Quit Plan</Text>
 
-     <View style={{backgroundColor: "rgba(239, 239, 239, 1)", width: 300, position: "relative", bottom: 30, borderRadius: 20}}>
+     <View style={{backgroundColor: "rgba(239, 239, 239, 1)", width: 350, position: "relative", bottom: 130, borderRadius: 20}}>
 
-      <Image source={require('../assets/Images/Target.png')} style={{height: 50, width: 50}}></Image>
+      <Image source={require('../assets/Images/Target.png')} style={{height: 70, width: 70}}></Image>
 
       <View style={{position: "relative", right: 55}}>
         <Text style={{textAlign: "center"}}>Today's Limit</Text>
@@ -56,7 +56,7 @@ export default function App() {
       
      </View>
 
-    <View style={{backgroundColor: "rgba(231, 231, 231, 1)", borderRadius: 20, width: 340, height: 150}}>
+    <View style={{backgroundColor: "rgba(231, 231, 231, 1)", borderRadius: 20, width: 370, height: 150}}>
         <Text style={{textAlign: "center", fontSize: 20, fontWeight: '600'}}>Countdown Timer</Text>
 
             <AnimatedCircularProgress
@@ -65,7 +65,7 @@ export default function App() {
             fill={fill2}
             tintColor= "rgba(0, 183, 255, 1)"
             backgroundColor="#bababaff"
-            rotation={-0} style={{position: "relative", top: 15, left: 15}}>
+            rotation={-0} style={{position: "relative", top: 15, left: 20}}>
             {
               (fill) => (
                 <View>
@@ -113,7 +113,7 @@ export default function App() {
             fill={fill3}
             tintColor="rgba(0, 183, 255, 1)"
             backgroundColor="#bababaff"
-            rotation={-0} style={{position: "relative", bottom: 200, left: 255}}>
+            rotation={-0} style={{position: "relative", bottom: 195, left: 289}}>
             {
               (fill) => (
                 <View>

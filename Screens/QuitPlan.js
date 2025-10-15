@@ -74,9 +74,6 @@ export default function App() {
               )
             }
           </AnimatedCircularProgress>
-          <View>
-             <Text>Days</Text>
-          </View>
 
                  <AnimatedCircularProgress
             size={70}

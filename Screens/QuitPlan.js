@@ -38,7 +38,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-     <Text style={{fontWeight: "bold", fontSize: 30, textAlign: "center", position: "relative", bottom: "25%"}}>Quit Plan</Text>
+     <Text style={{fontWeight: "bold", fontSize: 30, textAlign: "center", position: "relative", bottom: "23%"}}>Quit Plan</Text>
 
      <View style={{backgroundColor: "rgba(239, 239, 239, 1)", width: 300, position: "relative", bottom: 30, borderRadius: 20}}>
 
@@ -49,7 +49,7 @@ export default function App() {
         <Text style={{textAlign: "center", color: "red", fontWeight: "bold"}}>10 Puffs</Text>
       </View>
 
-      <View style={{position: "relative", bottom: 35, left: 60}}>
+      <View style={{position: "relative", bottom: 35, left: 80}}>
         <Text style={{textAlign: "center"}}>Puff's Today</Text>
         <Text style={{textAlign: "center", color: "rgba(0, 183, 255, 1)", fontWeight: "bold", fontFamily: ""}}>10 Puffs</Text>
       </View>

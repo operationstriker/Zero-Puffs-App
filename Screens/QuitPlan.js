@@ -123,6 +123,12 @@ export default function App() {
             }
           </AnimatedCircularProgress>
 
+          <View style={{bottom: 190}}>
+          <Text style={{fontSize: 20, left: 30}}>Days</Text>
+          <Text style={{fontSize: 18, left: 120, bottom: 25}}>Hours</Text>
+          <Text style={{fontSize: 18, left: 120, bottom: 50, left: 200}}>Minutes</Text>
+          <Text style={{fontSize: 18, left: 200, bottom: 70, left: 280}}>Seconds</Text>
+          </View>
     </View>
 
     <View>
